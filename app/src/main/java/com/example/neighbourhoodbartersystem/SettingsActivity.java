@@ -1,9 +1,12 @@
 package com.example.neighbourhoodbartersystem;
 
 import android.Manifest;
+import android.content.Intent;
+import android.content.SharedPreferences;
 import android.content.pm.PackageManager;
 import android.os.Bundle;
 import android.util.Log;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.annotation.NonNull;
@@ -27,6 +30,7 @@ public class SettingsActivity extends AppCompatActivity implements OnMapReadyCal
 
     private MapView mapView;
     private GoogleMap googleMap;
+    private TextView logout;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -43,8 +47,24 @@ public class SettingsActivity extends AppCompatActivity implements OnMapReadyCal
         }
 
         mapView = findViewById(R.id.mapView);
+        logout = findViewById(R.id.logout_text);
         mapView.onCreate(mapViewBundle);
         mapView.getMapAsync(this);
+        logout.setOnClickListener(v -> {
+            // Clear SharedPreferences (log out)
+            SharedPreferences prefs = getSharedPreferences("MyPrefs", MODE_PRIVATE);
+            SharedPreferences.Editor editor = prefs.edit();
+            editor.clear(); // Clears saved data
+            editor.apply();
+
+            // Redirect to LoginActivity
+            Intent intent = new Intent(SettingsActivity.this, LoginActivity.class);
+            intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK); // Clear back stack
+            startActivity(intent);
+
+            // Display logout message
+            Toast.makeText(SettingsActivity.this, "Logged out successfully", Toast.LENGTH_SHORT).show();
+        });
     }
 
     private void requestLocationPermissions() {
