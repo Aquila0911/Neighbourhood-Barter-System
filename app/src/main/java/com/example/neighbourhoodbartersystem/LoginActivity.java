@@ -56,7 +56,7 @@ public class LoginActivity extends AppCompatActivity {
 
             new Thread(() -> {
                 try {
-                    URL url = new URL("http://10.153.0.130:5000/api/login");  // use your backend URL
+                    URL url = new URL(Constants.BASE_URL +"/login");  // use your backend URL
                     HttpURLConnection conn = (HttpURLConnection) url.openConnection();
                     conn.setRequestMethod("POST");
                     conn.setRequestProperty("Content-Type", "application/json");

@@ -7,8 +7,10 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
+
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
+
 import java.util.List;
 
 public class ProductAdapter extends RecyclerView.Adapter<ProductAdapter.ViewHolder> {
@@ -18,6 +20,12 @@ public class ProductAdapter extends RecyclerView.Adapter<ProductAdapter.ViewHold
     public ProductAdapter(Context context, List<Product> productList) {
         this.context = context;
         this.productList = productList;
+    }
+
+    // Method to update product list after filtering
+    public void updateProductList(List<Product> filteredList) {
+        this.productList = filteredList;
+        notifyDataSetChanged();
     }
 
     @NonNull
@@ -45,7 +53,9 @@ public class ProductAdapter extends RecyclerView.Adapter<ProductAdapter.ViewHold
     }
 
     @Override
-    public int getItemCount() { return productList.size(); }
+    public int getItemCount() {
+        return productList.size();
+    }
 
     public static class ViewHolder extends RecyclerView.ViewHolder {
         ImageView productImage;

@@ -7,7 +7,7 @@ const connectDB = require("./src/config/db.js");
 const userRegisterRoute = require("./src/routes/userRegister");
 const loginRoute = require("./src/routes/login");
 const updateRoute = require("./src/routes/userUpdate");
-
+const deleteRoute = require("./src/routes/userDelete");
 // Middleware
 app.use(express.json());
 app.use(cors());
@@ -24,6 +24,7 @@ app.get("/api", (req, res) => {
 app.use(userRegisterRoute);
 app.use(loginRoute);
 app.use(updateRoute);
+app.use(deleteRoute);
 
 // Start server
 const port = process.env.PORT || 5000;

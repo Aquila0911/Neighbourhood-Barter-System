@@ -1,5 +1,7 @@
 package com.example.neighbourhoodbartersystem;
 
+import static com.example.neighbourhoodbartersystem.SettingsActivity.calculateDistanceInMeters;
+
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.Gravity;
@@ -24,6 +26,8 @@ import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
+
+import org.osmdroid.util.GeoPoint;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -53,11 +57,15 @@ public class ExchangeActivity extends AppCompatActivity {
         recyclerView.setLayoutManager(new GridLayoutManager(this, numberOfColumns));
 
         productList = new ArrayList<>();
-        productList.add(new Product("Laptop", "High-performance laptop", R.drawable.settings));
-        productList.add(new Product("Bicycle", "Mountain bike", R.drawable.settings));
-        productList.add(new Product("Phone", "Android phone", R.drawable.settings));
-        productList.add(new Product("Headphones", "Noise-canceling headphones", R.drawable.settings));
-        productList.add(new Product("Watch", "Smartwatch with tracking", R.drawable.settings));
+        List<SettingsActivity.LocationData> locations = SettingsActivity.locations;
+
+        // Add products with locations
+        productList = new ArrayList<>();
+        productList.add(new Product("Laptop", "High-performance laptop", R.drawable.settings, locations.get(0).geoPoint, "Electronics"));
+        productList.add(new Product("Bicycle", "Mountain bike", R.drawable.settings, locations.get(1).geoPoint, "Sports"));
+        productList.add(new Product("Phone", "Android phone", R.drawable.settings, locations.get(2).geoPoint, "Electronics"));
+        productList.add(new Product("Headphones", "Noise-canceling headphones", R.drawable.settings, locations.get(3).geoPoint, "Electronics"));
+        productList.add(new Product("Watch", "Smartwatch with tracking", R.drawable.settings, locations.get(4).geoPoint, "Electronics"));
 
         adapter = new ProductAdapter(this, productList);
         recyclerView.setAdapter(adapter);
@@ -130,10 +138,45 @@ public class ExchangeActivity extends AppCompatActivity {
         // Apply button listener
         applyButton.setOnClickListener(v -> {
             String selectedCategory = categorySpinner.getSelectedItem().toString();
-            String price = priceInput.getText().toString();
-            Toast.makeText(this, "Filter Applied: " + selectedCategory + ", Max Price: " + price, Toast.LENGTH_SHORT).show();
-            popupWindow.dismiss();
+            String distanceStr = priceInput.getText().toString();
+
+            if (distanceStr.isEmpty()) {
+                Toast.makeText(this, "Please enter a max distance", Toast.LENGTH_SHORT).show();
+                return;
+            }
+
+            try {
+                float maxDistance = Float.parseFloat(distanceStr);
+                filterProductsByLocationAndCategory(maxDistance, selectedCategory);
+                popupWindow.dismiss();
+            } catch (NumberFormatException e) {
+                Toast.makeText(this, "Invalid distance value", Toast.LENGTH_SHORT).show();
+            }
         });
+
+    }
+
+    private void filterProductsByLocationAndCategory(float maxDistance, String selectedCategory) {
+        List<Product> filteredList = new ArrayList<>();
+
+        // Get the selected location from SettingsActivity (you can pass it dynamically based on user's input)
+        GeoPoint selectedLocation = SettingsActivity.selectedLocation;
+        // Example: Use a location from SettingsActivity
+
+        for (Product product : productList) {
+            // Calculate distance between selectedLocation and product location
+            float distance = calculateDistanceInMeters(selectedLocation, product.getLocation()) / 1000;
+            // Convert to kilometers
+            boolean isCategoryMatch = selectedCategory.equals("Select Category") || product.getCategory().equals(selectedCategory);
+
+            // Check if within max distance and category match
+            if (distance <= maxDistance && isCategoryMatch) {
+                filteredList.add(product);  // Add product if it's within the range and category matches
+            }
+        }
+
+        // Update RecyclerView with filtered products
+        adapter.updateProductList(filteredList);
     }
 
 

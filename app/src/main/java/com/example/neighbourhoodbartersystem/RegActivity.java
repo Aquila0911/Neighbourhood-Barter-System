@@ -55,7 +55,7 @@ public class RegActivity extends AppCompatActivity {
                 // Background thread to send data to backend
                 new Thread(() -> {
                     try {
-                        URL url = new URL("http://192.168.1.5:5000/api/register"); // Enter your IP
+                        URL url = new URL(Constants.BASE_URL+"/register"); // Enter your IP
                         HttpURLConnection conn = (HttpURLConnection) url.openConnection();
                         conn.setRequestMethod("POST");
                         conn.setRequestProperty("Content-Type", "application/json");

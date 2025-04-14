@@ -5,6 +5,7 @@ import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.pm.PackageManager;
 import android.os.Bundle;
+import android.util.Log;
 import android.widget.Spinner;
 import android.widget.ArrayAdapter;
 import android.widget.TextView;
@@ -20,6 +21,8 @@ import org.osmdroid.util.GeoPoint;
 import org.osmdroid.views.MapView;
 import org.osmdroid.views.overlay.Marker;
 
+import java.net.HttpURLConnection;
+import java.net.URL;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -31,8 +34,9 @@ public class SettingsActivity extends AppCompatActivity {
     private MapView mapView;
     private TextView logout;
     private Spinner locationSpinner;
+    public static GeoPoint selectedLocation; // Accessible from ExchangeActivity
 
-    private List<LocationData> locations;
+    public static List<LocationData> locations;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -45,6 +49,9 @@ public class SettingsActivity extends AppCompatActivity {
         mapView = findViewById(R.id.mapView);
         logout = findViewById(R.id.logout_text);
         locationSpinner = findViewById(R.id.locationSpinner);
+        TextView deleteAccount = findViewById(R.id.delete_account_text);
+        deleteAccount.setOnClickListener(v -> deleteUserAccount());
+
 
         mapView.setTileSource(TileSourceFactory.MAPNIK);
         mapView.setBuiltInZoomControls(true);
@@ -72,12 +79,13 @@ public class SettingsActivity extends AppCompatActivity {
             @Override
             public void onItemSelected(android.widget.AdapterView<?> parent, android.view.View view, int position, long id) {
                 LocationData selected = locations.get(position);
+                selectedLocation = locations.get(position).geoPoint;
                 updateMapWithNearbyMarkers(selected, locations);
             }
 
             @Override
             public void onNothingSelected(android.widget.AdapterView<?> parent) {
-                // Do nothing
+                selectedLocation = locations.get(0).geoPoint;
             }
         });
 
@@ -103,6 +111,39 @@ public class SettingsActivity extends AppCompatActivity {
         return titles;
     }
 
+    private void deleteUserAccount() {
+        SharedPreferences prefs = getSharedPreferences("MyPrefs", MODE_PRIVATE);
+        String userId = prefs.getString("userId", null);
+        Log.d("DELETE_USER", "Sending delete request to: " + Constants.BASE_URL + "/users/" + userId);
+
+        if (userId == null) {
+            Toast.makeText(SettingsActivity.this, "User ID not found", Toast.LENGTH_SHORT).show();
+            return;
+        }
+
+        new Thread(() -> {
+            try {
+                URL url = new URL(Constants.BASE_URL + "/users/" + userId);
+                HttpURLConnection conn = (HttpURLConnection) url.openConnection();
+                conn.setRequestMethod("DELETE");
+                conn.setRequestProperty("Accept", "application/json");
+
+                int responseCode = conn.getResponseCode();
+                runOnUiThread(() -> {
+                    if (responseCode == 200) {
+                        Toast.makeText(SettingsActivity.this, "Account deleted successfully", Toast.LENGTH_SHORT).show();
+                        prefs.edit().clear().apply();
+                        startActivity(new Intent(SettingsActivity.this, LoginActivity.class));
+                        finish();
+                    } else {
+                        Toast.makeText(SettingsActivity.this, "Failed to delete account", Toast.LENGTH_SHORT).show();
+                    }
+                });
+            } catch (Exception e) {
+                runOnUiThread(() -> Toast.makeText(SettingsActivity.this, "Error: " + e.getMessage(), Toast.LENGTH_LONG).show());
+            }
+        }).start();
+    }
     private void updateMapWithNearbyMarkers(LocationData center, List<LocationData> all) {
         mapView.getOverlays().clear();
 
@@ -133,7 +174,7 @@ public class SettingsActivity extends AppCompatActivity {
         mapView.invalidate();
     }
 
-    private float calculateDistanceInMeters(GeoPoint p1, GeoPoint p2) {
+    public static float calculateDistanceInMeters(GeoPoint p1, GeoPoint p2) {
         float[] result = new float[1];
         android.location.Location.distanceBetween(
                 p1.getLatitude(), p1.getLongitude(),

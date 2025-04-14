@@ -112,7 +112,7 @@ public class ProfileActivity extends Activity {
     private void saveProfileChanges(String id, String updatedName, String updatedEmail, String updatedPhone) {
         new Thread(() -> {
             try {
-                URL url = new URL("http://10.90.1.37:5000/api/update"); // Replace with your actual route
+                URL url = new URL(Constants.BASE_URL+"/update"); // Replace with your actual route
                 HttpURLConnection conn = (HttpURLConnection) url.openConnection();
                 conn.setRequestMethod("POST");
                 conn.setRequestProperty("Content-Type", "application/json");
