@@ -2,6 +2,7 @@ package com.example.neighbourhoodbartersystem;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.Menu;
@@ -10,6 +11,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
+import android.widget.TextView;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
@@ -25,6 +27,25 @@ public class ProfileActivity extends Activity {
         EditText email = findViewById(R.id.profile_email);
         EditText contact = findViewById(R.id.profile_contact);
         EditText userId = findViewById(R.id.profile_userid);
+        TextView ratingStar = findViewById(R.id.profile_ratingStar);
+        TextView ratingNum = findViewById(R.id.profile_ratingNum);
+
+        // Get user data from SharedPreferences
+        SharedPreferences prefs = getSharedPreferences("MyPrefs", MODE_PRIVATE);
+        String userName = prefs.getString("userName", "");
+        String userEmail = prefs.getString("userEmail", "");
+        String userPhone = prefs.getString("userPhone", "");
+        String userID = prefs.getString("userId", "");
+        String userRating = prefs.getString("userRating", "");
+        String userTotalRatings = prefs.getString("userTotalRatings", "");
+
+        // Set them to EditTexts
+        name.setText(userName);
+        email.setText(userEmail);
+        contact.setText(userPhone);
+        userId.setText(userID);
+        ratingStar.setText(userRating + "⭐");
+        ratingNum.setText("(" + userTotalRatings + ")");
 
         BottomNavigationView bottomNavigationView = findViewById(R.id.bottom_navigation);
         bottomNavigationView.setSelectedItemId(R.id.settings);
@@ -42,6 +63,7 @@ public class ProfileActivity extends Activity {
                 return false;
             }
         });
+
         editButton.setOnClickListener(v -> {
             boolean isEditable = name.isEnabled();
 
@@ -67,7 +89,6 @@ public class ProfileActivity extends Activity {
                 Intent intent = new Intent(ProfileActivity.this, SettingsActivity.class);
                 startActivity(intent);
             }
-
         });
 
     }

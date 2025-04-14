@@ -77,7 +77,9 @@ id profileImage
 id profile_contact
 id profile_email
 id profile_name
-id profile_rating
+id profile_ratingNum
+id profile_ratingStar
+id profile_ratingtv
 id profile_userid
 id recyclerView
 id save_button
