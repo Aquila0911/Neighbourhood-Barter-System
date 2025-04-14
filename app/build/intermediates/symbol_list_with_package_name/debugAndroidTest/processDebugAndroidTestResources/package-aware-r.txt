@@ -1,3 +1,0 @@
-com.example.neighbourhoodbartersystem.test
-style WhiteBackgroundDialogTheme
-style WhiteBackgroundTheme
