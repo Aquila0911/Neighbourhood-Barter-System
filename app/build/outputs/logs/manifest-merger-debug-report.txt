@@ -1,0 +1,452 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\shara\Documents\Neighbourhood-Barter-system-v1\Neighbourhood-Barter-system-master\app\src\main\AndroidManifest.xml:2:1-93:12
+INJECTED from C:\Users\shara\Documents\Neighbourhood-Barter-system-v1\Neighbourhood-Barter-system-master\app\src\main\AndroidManifest.xml:2:1-93:12
+INJECTED from C:\Users\shara\Documents\Neighbourhood-Barter-system-v1\Neighbourhood-Barter-system-master\app\src\main\AndroidManifest.xml:2:1-93:12
+INJECTED from C:\Users\shara\Documents\Neighbourhood-Barter-system-v1\Neighbourhood-Barter-system-master\app\src\main\AndroidManifest.xml:2:1-93:12
+MERGED from [com.google.android.material:material:1.12.0] C:\Users\shara\.gradle\caches\8.10.2\transforms\2150c25b66d87500bbbf19ed0f6cb83e\transformed\material-1.12.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.2.0] C:\Users\shara\.gradle\caches\8.10.2\transforms\d44b34ffb234df93cf07fad92a11f50d\transformed\constraintlayout-2.2.0\AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.appcompat:appcompat-resources:1.7.0] C:\Users\shara\.gradle\caches\8.10.2\transforms\e20e19f521ebc1a73df7bb49f42ae378\transformed\appcompat-resources-1.7.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.appcompat:appcompat:1.7.0] C:\Users\shara\.gradle\caches\8.10.2\transforms\0c8328d17010f34381c6c92dd37731aa\transformed\appcompat-1.7.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-maps:19.1.0] C:\Users\shara\.gradle\caches\8.10.2\transforms\29edc8bca9eb7ac3803449e92c70aed0\transformed\play-services-maps-19.1.0\AndroidManifest.xml:16:1-35:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\shara\.gradle\caches\8.10.2\transforms\d250f0d33a17527aae5c38a72a76e5c0\transformed\viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\shara\.gradle\caches\8.10.2\transforms\47bfbb3fd7f869eb678137d2f5c648f2\transformed\play-services-base-18.5.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] C:\Users\shara\.gradle\caches\8.10.2\transforms\78c8ca2a60c17ed476c4be8a1b8b6010\transformed\play-services-tasks-18.2.0\AndroidManifest.xml:2:1-5:12
+MERGED from [com.google.android.gms:play-services-basement:18.4.0] C:\Users\shara\.gradle\caches\8.10.2\transforms\c647b5a2c0077f4eac8c10b8f0f0a842\transformed\play-services-basement-18.4.0\AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.fragment:fragment:1.5.4] C:\Users\shara\.gradle\caches\8.10.2\transforms\e9b38445f81de178314286f2c4d08669\transformed\fragment-1.5.4\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.10.0] C:\Users\shara\.gradle\caches\8.10.2\transforms\2283569024d9916d9291d5eb49caa2f8\transformed\activity-1.10.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\shara\.gradle\caches\8.10.2\transforms\eecdad80ec8540b8cead2545a4b0eadc\transformed\savedstate-1.2.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] C:\Users\shara\.gradle\caches\8.10.2\transforms\39e385c3d379638f4f8e9e376da78d43\transformed\emoji2-views-helper-1.3.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\shara\.gradle\caches\8.10.2\transforms\0a22aa998f649de663bb8a58ff0e00d3\transformed\emoji2-1.3.0\AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.transition:transition:1.5.0] C:\Users\shara\.gradle\caches\8.10.2\transforms\e5ec25dcfb4752449cb6ed128e5fa3fb\transformed\transition-1.5.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\shara\.gradle\caches\8.10.2\transforms\892e0350dda653560a0cac37ccec56f4\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\shara\.gradle\caches\8.10.2\transforms\a18da5144d6abcb34a12f057ecb9a804\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\shara\.gradle\caches\8.10.2\transforms\3a43aba599c7ca83c37f86726c12e316\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] C:\Users\shara\.gradle\caches\8.10.2\transforms\eadda50de07def64996b188300a3a8a9\transformed\lifecycle-livedata-2.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] C:\Users\shara\.gradle\caches\8.10.2\transforms\1857cafea6c7712f253d9d00f8fc12b5\transformed\lifecycle-viewmodel-2.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\shara\.gradle\caches\8.10.2\transforms\4ea44d241cc678fe07f5b44ae6fd1521\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] C:\Users\shara\.gradle\caches\8.10.2\transforms\a6e65bc116c397a09ee10a422aead771\transformed\lifecycle-livedata-core-2.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] C:\Users\shara\.gradle\caches\8.10.2\transforms\fdf5b127a988b7282f9f3da3d7e4818c\transformed\lifecycle-runtime-2.6.2\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] C:\Users\shara\.gradle\caches\8.10.2\transforms\d03ee68bf8254655a32395c4715b71bf\transformed\lifecycle-viewmodel-savedstate-2.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core-ktx:1.13.0] C:\Users\shara\.gradle\caches\8.10.2\transforms\9ed9a3e79aa2e77f5f260c4d8e350d3f\transformed\core-ktx-1.13.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\shara\.gradle\caches\8.10.2\transforms\c9e69c0299a1a0fad01e24b9bbdad030\transformed\drawerlayout-1.1.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\shara\.gradle\caches\8.10.2\transforms\c7eec9c78faa2f5eb05e345497be3f5c\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\shara\.gradle\caches\8.10.2\transforms\cc9d77e9d71ef42370bf847d02ca07bc\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\shara\.gradle\caches\8.10.2\transforms\e4c5b1e5e1888cde727598774f5899c3\transformed\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\shara\.gradle\caches\8.10.2\transforms\573c7660ec0b495141595240c6833308\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\shara\.gradle\caches\8.10.2\transforms\262c40e35926cd06993401f58ccce879\transformed\recyclerview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\shara\.gradle\caches\8.10.2\transforms\f9a2b94ea21da763407a2dfd63dcc5ef\transformed\customview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.13.0] C:\Users\shara\.gradle\caches\8.10.2\transforms\ec51a2737c3035491a78f0680c8c0ea4\transformed\core-1.13.0\AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\shara\.gradle\caches\8.10.2\transforms\8b4b35b7e0d33a2bcd6b58a714a138e1\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\shara\.gradle\caches\8.10.2\transforms\4140b9c1640d677cfba4459ce8b89162\transformed\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\shara\.gradle\caches\8.10.2\transforms\c7e9614b33e3a2b5983362fa72c029c5\transformed\profileinstaller-1.4.0\AndroidManifest.xml:17:1-55:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\shara\.gradle\caches\8.10.2\transforms\b9babb41911363225370555d36d83b29\transformed\startup-runtime-1.1.1\AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\shara\.gradle\caches\8.10.2\transforms\647124ac39b7749b49c013dd0a6609d9\transformed\tracing-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\shara\.gradle\caches\8.10.2\transforms\efac7dffd9dbd76cd2736b001a218fc7\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\shara\.gradle\caches\8.10.2\transforms\26cefe69719bbfffb402a92c26ffe955\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\shara\.gradle\caches\8.10.2\transforms\1881a07db83eb5b54cc4b3dba54a6d61\transformed\core-runtime-2.2.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\shara\.gradle\caches\8.10.2\transforms\211c73eb61d48357abec790ad7e5cc99\transformed\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\shara\.gradle\caches\8.10.2\transforms\1fa35fc50bf4bf7035c586b5b7f20060\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\shara\.gradle\caches\8.10.2\transforms\3aa22e96dcdaca1f6c2b35e367929dc9\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] C:\Users\shara\.gradle\caches\8.10.2\transforms\6c9592205cb807f5377782d6b68cde7e\transformed\annotation-experimental-1.4.0\AndroidManifest.xml:2:1-7:12
+	package
+		INJECTED from C:\Users\shara\Documents\Neighbourhood-Barter-system-v1\Neighbourhood-Barter-system-master\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\shara\Documents\Neighbourhood-Barter-system-v1\Neighbourhood-Barter-system-master\app\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from C:\Users\shara\Documents\Neighbourhood-Barter-system-v1\Neighbourhood-Barter-system-master\app\src\main\AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from C:\Users\shara\Documents\Neighbourhood-Barter-system-v1\Neighbourhood-Barter-system-master\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\shara\Documents\Neighbourhood-Barter-system-v1\Neighbourhood-Barter-system-master\app\src\main\AndroidManifest.xml:2:11-69
+uses-feature#android.hardware.camera
+ADDED from C:\Users\shara\Documents\Neighbourhood-Barter-system-v1\Neighbourhood-Barter-system-master\app\src\main\AndroidManifest.xml:5:5-7:36
+	android:required
+		ADDED from C:\Users\shara\Documents\Neighbourhood-Barter-system-v1\Neighbourhood-Barter-system-master\app\src\main\AndroidManifest.xml:7:9-33
+	android:name
+		ADDED from C:\Users\shara\Documents\Neighbourhood-Barter-system-v1\Neighbourhood-Barter-system-master\app\src\main\AndroidManifest.xml:6:9-47
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\shara\Documents\Neighbourhood-Barter-system-v1\Neighbourhood-Barter-system-master\app\src\main\AndroidManifest.xml:9:5-66
+MERGED from [com.google.android.gms:play-services-maps:19.1.0] C:\Users\shara\.gradle\caches\8.10.2\transforms\29edc8bca9eb7ac3803449e92c70aed0\transformed\play-services-maps-19.1.0\AndroidManifest.xml:21:5-66
+MERGED from [com.google.android.gms:play-services-maps:19.1.0] C:\Users\shara\.gradle\caches\8.10.2\transforms\29edc8bca9eb7ac3803449e92c70aed0\transformed\play-services-maps-19.1.0\AndroidManifest.xml:21:5-66
+	android:name
+		ADDED from C:\Users\shara\Documents\Neighbourhood-Barter-system-v1\Neighbourhood-Barter-system-master\app\src\main\AndroidManifest.xml:9:22-64
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from C:\Users\shara\Documents\Neighbourhood-Barter-system-v1\Neighbourhood-Barter-system-master\app\src\main\AndroidManifest.xml:10:5-78
+	android:name
+		ADDED from C:\Users\shara\Documents\Neighbourhood-Barter-system-v1\Neighbourhood-Barter-system-master\app\src\main\AndroidManifest.xml:10:22-76
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from C:\Users\shara\Documents\Neighbourhood-Barter-system-v1\Neighbourhood-Barter-system-master\app\src\main\AndroidManifest.xml:11:5-80
+	android:name
+		ADDED from C:\Users\shara\Documents\Neighbourhood-Barter-system-v1\Neighbourhood-Barter-system-master\app\src\main\AndroidManifest.xml:11:22-78
+uses-permission#android.permission.CAMERA
+ADDED from C:\Users\shara\Documents\Neighbourhood-Barter-system-v1\Neighbourhood-Barter-system-master\app\src\main\AndroidManifest.xml:12:5-64
+	android:name
+		ADDED from C:\Users\shara\Documents\Neighbourhood-Barter-system-v1\Neighbourhood-Barter-system-master\app\src\main\AndroidManifest.xml:12:22-62
+uses-permission#android.permission.POST_NOTIFICATIONS
+ADDED from C:\Users\shara\Documents\Neighbourhood-Barter-system-v1\Neighbourhood-Barter-system-master\app\src\main\AndroidManifest.xml:13:5-77
+	android:name
+		ADDED from C:\Users\shara\Documents\Neighbourhood-Barter-system-v1\Neighbourhood-Barter-system-master\app\src\main\AndroidManifest.xml:13:22-74
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from C:\Users\shara\Documents\Neighbourhood-Barter-system-v1\Neighbourhood-Barter-system-master\app\src\main\AndroidManifest.xml:14:5-79
+	android:name
+		ADDED from C:\Users\shara\Documents\Neighbourhood-Barter-system-v1\Neighbourhood-Barter-system-master\app\src\main\AndroidManifest.xml:14:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\shara\Documents\Neighbourhood-Barter-system-v1\Neighbourhood-Barter-system-master\app\src\main\AndroidManifest.xml:15:5-80
+	android:name
+		ADDED from C:\Users\shara\Documents\Neighbourhood-Barter-system-v1\Neighbourhood-Barter-system-master\app\src\main\AndroidManifest.xml:15:22-78
+uses-permission#android.permission.READ_MEDIA_IMAGES
+ADDED from C:\Users\shara\Documents\Neighbourhood-Barter-system-v1\Neighbourhood-Barter-system-master\app\src\main\AndroidManifest.xml:16:5-76
+	android:name
+		ADDED from C:\Users\shara\Documents\Neighbourhood-Barter-system-v1\Neighbourhood-Barter-system-master\app\src\main\AndroidManifest.xml:16:22-73
+application
+ADDED from C:\Users\shara\Documents\Neighbourhood-Barter-system-v1\Neighbourhood-Barter-system-master\app\src\main\AndroidManifest.xml:19:5-91:15
+INJECTED from C:\Users\shara\Documents\Neighbourhood-Barter-system-v1\Neighbourhood-Barter-system-master\app\src\main\AndroidManifest.xml:19:5-91:15
+MERGED from [com.google.android.material:material:1.12.0] C:\Users\shara\.gradle\caches\8.10.2\transforms\2150c25b66d87500bbbf19ed0f6cb83e\transformed\material-1.12.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.12.0] C:\Users\shara\.gradle\caches\8.10.2\transforms\2150c25b66d87500bbbf19ed0f6cb83e\transformed\material-1.12.0\AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.2.0] C:\Users\shara\.gradle\caches\8.10.2\transforms\d44b34ffb234df93cf07fad92a11f50d\transformed\constraintlayout-2.2.0\AndroidManifest.xml:7:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.2.0] C:\Users\shara\.gradle\caches\8.10.2\transforms\d44b34ffb234df93cf07fad92a11f50d\transformed\constraintlayout-2.2.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-maps:19.1.0] C:\Users\shara\.gradle\caches\8.10.2\transforms\29edc8bca9eb7ac3803449e92c70aed0\transformed\play-services-maps-19.1.0\AndroidManifest.xml:31:5-34:19
+MERGED from [com.google.android.gms:play-services-maps:19.1.0] C:\Users\shara\.gradle\caches\8.10.2\transforms\29edc8bca9eb7ac3803449e92c70aed0\transformed\play-services-maps-19.1.0\AndroidManifest.xml:31:5-34:19
+MERGED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\shara\.gradle\caches\8.10.2\transforms\47bfbb3fd7f869eb678137d2f5c648f2\transformed\play-services-base-18.5.0\AndroidManifest.xml:4:5-6:19
+MERGED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\shara\.gradle\caches\8.10.2\transforms\47bfbb3fd7f869eb678137d2f5c648f2\transformed\play-services-base-18.5.0\AndroidManifest.xml:4:5-6:19
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] C:\Users\shara\.gradle\caches\8.10.2\transforms\78c8ca2a60c17ed476c4be8a1b8b6010\transformed\play-services-tasks-18.2.0\AndroidManifest.xml:4:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] C:\Users\shara\.gradle\caches\8.10.2\transforms\78c8ca2a60c17ed476c4be8a1b8b6010\transformed\play-services-tasks-18.2.0\AndroidManifest.xml:4:5-20
+MERGED from [com.google.android.gms:play-services-basement:18.4.0] C:\Users\shara\.gradle\caches\8.10.2\transforms\c647b5a2c0077f4eac8c10b8f0f0a842\transformed\play-services-basement-18.4.0\AndroidManifest.xml:5:5-7:19
+MERGED from [com.google.android.gms:play-services-basement:18.4.0] C:\Users\shara\.gradle\caches\8.10.2\transforms\c647b5a2c0077f4eac8c10b8f0f0a842\transformed\play-services-basement-18.4.0\AndroidManifest.xml:5:5-7:19
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\shara\.gradle\caches\8.10.2\transforms\0a22aa998f649de663bb8a58ff0e00d3\transformed\emoji2-1.3.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\shara\.gradle\caches\8.10.2\transforms\0a22aa998f649de663bb8a58ff0e00d3\transformed\emoji2-1.3.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\shara\.gradle\caches\8.10.2\transforms\4ea44d241cc678fe07f5b44ae6fd1521\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\shara\.gradle\caches\8.10.2\transforms\4ea44d241cc678fe07f5b44ae6fd1521\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.core:core:1.13.0] C:\Users\shara\.gradle\caches\8.10.2\transforms\ec51a2737c3035491a78f0680c8c0ea4\transformed\core-1.13.0\AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.13.0] C:\Users\shara\.gradle\caches\8.10.2\transforms\ec51a2737c3035491a78f0680c8c0ea4\transformed\core-1.13.0\AndroidManifest.xml:28:5-89
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\shara\.gradle\caches\8.10.2\transforms\c7e9614b33e3a2b5983362fa72c029c5\transformed\profileinstaller-1.4.0\AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\shara\.gradle\caches\8.10.2\transforms\c7e9614b33e3a2b5983362fa72c029c5\transformed\profileinstaller-1.4.0\AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\shara\.gradle\caches\8.10.2\transforms\b9babb41911363225370555d36d83b29\transformed\startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\shara\.gradle\caches\8.10.2\transforms\b9babb41911363225370555d36d83b29\transformed\startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\shara\.gradle\caches\8.10.2\transforms\26cefe69719bbfffb402a92c26ffe955\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\shara\.gradle\caches\8.10.2\transforms\26cefe69719bbfffb402a92c26ffe955\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+	android:extractNativeLibs
+		INJECTED from C:\Users\shara\Documents\Neighbourhood-Barter-system-v1\Neighbourhood-Barter-system-master\app\src\main\AndroidManifest.xml
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.13.0] C:\Users\shara\.gradle\caches\8.10.2\transforms\ec51a2737c3035491a78f0680c8c0ea4\transformed\core-1.13.0\AndroidManifest.xml:28:18-86
+	android:supportsRtl
+		ADDED from C:\Users\shara\Documents\Neighbourhood-Barter-system-v1\Neighbourhood-Barter-system-master\app\src\main\AndroidManifest.xml:26:9-35
+	android:label
+		ADDED from C:\Users\shara\Documents\Neighbourhood-Barter-system-v1\Neighbourhood-Barter-system-master\app\src\main\AndroidManifest.xml:24:9-41
+	android:fullBackupContent
+		ADDED from C:\Users\shara\Documents\Neighbourhood-Barter-system-v1\Neighbourhood-Barter-system-master\app\src\main\AndroidManifest.xml:22:9-54
+	android:roundIcon
+		ADDED from C:\Users\shara\Documents\Neighbourhood-Barter-system-v1\Neighbourhood-Barter-system-master\app\src\main\AndroidManifest.xml:25:9-54
+	tools:targetApi
+		ADDED from C:\Users\shara\Documents\Neighbourhood-Barter-system-v1\Neighbourhood-Barter-system-master\app\src\main\AndroidManifest.xml:28:9-29
+	android:icon
+		ADDED from C:\Users\shara\Documents\Neighbourhood-Barter-system-v1\Neighbourhood-Barter-system-master\app\src\main\AndroidManifest.xml:23:9-43
+	android:allowBackup
+		ADDED from C:\Users\shara\Documents\Neighbourhood-Barter-system-v1\Neighbourhood-Barter-system-master\app\src\main\AndroidManifest.xml:20:9-35
+	android:theme
+		ADDED from C:\Users\shara\Documents\Neighbourhood-Barter-system-v1\Neighbourhood-Barter-system-master\app\src\main\AndroidManifest.xml:27:9-63
+	android:dataExtractionRules
+		ADDED from C:\Users\shara\Documents\Neighbourhood-Barter-system-v1\Neighbourhood-Barter-system-master\app\src\main\AndroidManifest.xml:21:9-65
+activity#com.example.neighbourhoodbartersystem.MainActivity
+ADDED from C:\Users\shara\Documents\Neighbourhood-Barter-system-v1\Neighbourhood-Barter-system-master\app\src\main\AndroidManifest.xml:29:9-38:20
+	android:exported
+		ADDED from C:\Users\shara\Documents\Neighbourhood-Barter-system-v1\Neighbourhood-Barter-system-master\app\src\main\AndroidManifest.xml:31:13-36
+	android:name
+		ADDED from C:\Users\shara\Documents\Neighbourhood-Barter-system-v1\Neighbourhood-Barter-system-master\app\src\main\AndroidManifest.xml:30:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\shara\Documents\Neighbourhood-Barter-system-v1\Neighbourhood-Barter-system-master\app\src\main\AndroidManifest.xml:32:13-37:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\shara\Documents\Neighbourhood-Barter-system-v1\Neighbourhood-Barter-system-master\app\src\main\AndroidManifest.xml:33:17-69
+	android:name
+		ADDED from C:\Users\shara\Documents\Neighbourhood-Barter-system-v1\Neighbourhood-Barter-system-master\app\src\main\AndroidManifest.xml:33:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\shara\Documents\Neighbourhood-Barter-system-v1\Neighbourhood-Barter-system-master\app\src\main\AndroidManifest.xml:36:17-77
+	android:name
+		ADDED from C:\Users\shara\Documents\Neighbourhood-Barter-system-v1\Neighbourhood-Barter-system-master\app\src\main\AndroidManifest.xml:36:27-74
+activity#com.example.neighbourhoodbartersystem.AddNewProduct
+ADDED from C:\Users\shara\Documents\Neighbourhood-Barter-system-v1\Neighbourhood-Barter-system-master\app\src\main\AndroidManifest.xml:39:9-47:20
+	android:exported
+		ADDED from C:\Users\shara\Documents\Neighbourhood-Barter-system-v1\Neighbourhood-Barter-system-master\app\src\main\AndroidManifest.xml:40:13-36
+	android:name
+		ADDED from C:\Users\shara\Documents\Neighbourhood-Barter-system-v1\Neighbourhood-Barter-system-master\app\src\main\AndroidManifest.xml:39:19-48
+activity#com.example.neighbourhoodbartersystem.ExchangeActivity
+ADDED from C:\Users\shara\Documents\Neighbourhood-Barter-system-v1\Neighbourhood-Barter-system-master\app\src\main\AndroidManifest.xml:48:9-54
+	android:name
+		ADDED from C:\Users\shara\Documents\Neighbourhood-Barter-system-v1\Neighbourhood-Barter-system-master\app\src\main\AndroidManifest.xml:48:19-51
+activity#com.example.neighbourhoodbartersystem.OngoingActivity
+ADDED from C:\Users\shara\Documents\Neighbourhood-Barter-system-v1\Neighbourhood-Barter-system-master\app\src\main\AndroidManifest.xml:49:9-53
+	android:name
+		ADDED from C:\Users\shara\Documents\Neighbourhood-Barter-system-v1\Neighbourhood-Barter-system-master\app\src\main\AndroidManifest.xml:49:19-50
+activity#com.example.neighbourhoodbartersystem.YourItemsActivity
+ADDED from C:\Users\shara\Documents\Neighbourhood-Barter-system-v1\Neighbourhood-Barter-system-master\app\src\main\AndroidManifest.xml:50:9-55
+	android:name
+		ADDED from C:\Users\shara\Documents\Neighbourhood-Barter-system-v1\Neighbourhood-Barter-system-master\app\src\main\AndroidManifest.xml:50:19-52
+activity#com.example.neighbourhoodbartersystem.LoginActivity
+ADDED from C:\Users\shara\Documents\Neighbourhood-Barter-system-v1\Neighbourhood-Barter-system-master\app\src\main\AndroidManifest.xml:51:9-51
+	android:name
+		ADDED from C:\Users\shara\Documents\Neighbourhood-Barter-system-v1\Neighbourhood-Barter-system-master\app\src\main\AndroidManifest.xml:51:19-48
+activity#com.example.neighbourhoodbartersystem.ProfileActivity
+ADDED from C:\Users\shara\Documents\Neighbourhood-Barter-system-v1\Neighbourhood-Barter-system-master\app\src\main\AndroidManifest.xml:52:9-60:20
+	android:exported
+		ADDED from C:\Users\shara\Documents\Neighbourhood-Barter-system-v1\Neighbourhood-Barter-system-master\app\src\main\AndroidManifest.xml:53:13-36
+	android:name
+		ADDED from C:\Users\shara\Documents\Neighbourhood-Barter-system-v1\Neighbourhood-Barter-system-master\app\src\main\AndroidManifest.xml:52:19-87
+activity#com.example.neighbourhoodbartersystem.SettingsActivity
+ADDED from C:\Users\shara\Documents\Neighbourhood-Barter-system-v1\Neighbourhood-Barter-system-master\app\src\main\AndroidManifest.xml:61:9-69:20
+	android:exported
+		ADDED from C:\Users\shara\Documents\Neighbourhood-Barter-system-v1\Neighbourhood-Barter-system-master\app\src\main\AndroidManifest.xml:62:13-36
+	android:name
+		ADDED from C:\Users\shara\Documents\Neighbourhood-Barter-system-v1\Neighbourhood-Barter-system-master\app\src\main\AndroidManifest.xml:61:19-88
+meta-data#preloaded_fonts
+ADDED from C:\Users\shara\Documents\Neighbourhood-Barter-system-v1\Neighbourhood-Barter-system-master\app\src\main\AndroidManifest.xml:74:9-76:57
+	android:resource
+		ADDED from C:\Users\shara\Documents\Neighbourhood-Barter-system-v1\Neighbourhood-Barter-system-master\app\src\main\AndroidManifest.xml:76:13-54
+	android:name
+		ADDED from C:\Users\shara\Documents\Neighbourhood-Barter-system-v1\Neighbourhood-Barter-system-master\app\src\main\AndroidManifest.xml:75:13-43
+meta-data#com.google.android.geo.API_KEY
+ADDED from C:\Users\shara\Documents\Neighbourhood-Barter-system-v1\Neighbourhood-Barter-system-master\app\src\main\AndroidManifest.xml:77:9-79:48
+	android:value
+		ADDED from C:\Users\shara\Documents\Neighbourhood-Barter-system-v1\Neighbourhood-Barter-system-master\app\src\main\AndroidManifest.xml:79:13-46
+	android:name
+		ADDED from C:\Users\shara\Documents\Neighbourhood-Barter-system-v1\Neighbourhood-Barter-system-master\app\src\main\AndroidManifest.xml:78:13-58
+provider#androidx.core.content.FileProvider
+ADDED from C:\Users\shara\Documents\Neighbourhood-Barter-system-v1\Neighbourhood-Barter-system-master\app\src\main\AndroidManifest.xml:81:9-89:20
+	android:grantUriPermissions
+		ADDED from C:\Users\shara\Documents\Neighbourhood-Barter-system-v1\Neighbourhood-Barter-system-master\app\src\main\AndroidManifest.xml:84:13-47
+	android:authorities
+		ADDED from C:\Users\shara\Documents\Neighbourhood-Barter-system-v1\Neighbourhood-Barter-system-master\app\src\main\AndroidManifest.xml:83:13-81
+	android:exported
+		ADDED from C:\Users\shara\Documents\Neighbourhood-Barter-system-v1\Neighbourhood-Barter-system-master\app\src\main\AndroidManifest.xml:85:13-37
+	android:name
+		ADDED from C:\Users\shara\Documents\Neighbourhood-Barter-system-v1\Neighbourhood-Barter-system-master\app\src\main\AndroidManifest.xml:82:13-62
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from C:\Users\shara\Documents\Neighbourhood-Barter-system-v1\Neighbourhood-Barter-system-master\app\src\main\AndroidManifest.xml:86:13-88:53
+	android:resource
+		ADDED from C:\Users\shara\Documents\Neighbourhood-Barter-system-v1\Neighbourhood-Barter-system-master\app\src\main\AndroidManifest.xml:88:17-51
+	android:name
+		ADDED from C:\Users\shara\Documents\Neighbourhood-Barter-system-v1\Neighbourhood-Barter-system-master\app\src\main\AndroidManifest.xml:87:17-67
+uses-sdk
+INJECTED from C:\Users\shara\Documents\Neighbourhood-Barter-system-v1\Neighbourhood-Barter-system-master\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\shara\Documents\Neighbourhood-Barter-system-v1\Neighbourhood-Barter-system-master\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\shara\Documents\Neighbourhood-Barter-system-v1\Neighbourhood-Barter-system-master\app\src\main\AndroidManifest.xml
+MERGED from [com.google.android.material:material:1.12.0] C:\Users\shara\.gradle\caches\8.10.2\transforms\2150c25b66d87500bbbf19ed0f6cb83e\transformed\material-1.12.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.12.0] C:\Users\shara\.gradle\caches\8.10.2\transforms\2150c25b66d87500bbbf19ed0f6cb83e\transformed\material-1.12.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.2.0] C:\Users\shara\.gradle\caches\8.10.2\transforms\d44b34ffb234df93cf07fad92a11f50d\transformed\constraintlayout-2.2.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.2.0] C:\Users\shara\.gradle\caches\8.10.2\transforms\d44b34ffb234df93cf07fad92a11f50d\transformed\constraintlayout-2.2.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.7.0] C:\Users\shara\.gradle\caches\8.10.2\transforms\e20e19f521ebc1a73df7bb49f42ae378\transformed\appcompat-resources-1.7.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.7.0] C:\Users\shara\.gradle\caches\8.10.2\transforms\e20e19f521ebc1a73df7bb49f42ae378\transformed\appcompat-resources-1.7.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat:1.7.0] C:\Users\shara\.gradle\caches\8.10.2\transforms\0c8328d17010f34381c6c92dd37731aa\transformed\appcompat-1.7.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat:1.7.0] C:\Users\shara\.gradle\caches\8.10.2\transforms\0c8328d17010f34381c6c92dd37731aa\transformed\appcompat-1.7.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-maps:19.1.0] C:\Users\shara\.gradle\caches\8.10.2\transforms\29edc8bca9eb7ac3803449e92c70aed0\transformed\play-services-maps-19.1.0\AndroidManifest.xml:26:5-43
+MERGED from [com.google.android.gms:play-services-maps:19.1.0] C:\Users\shara\.gradle\caches\8.10.2\transforms\29edc8bca9eb7ac3803449e92c70aed0\transformed\play-services-maps-19.1.0\AndroidManifest.xml:26:5-43
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\shara\.gradle\caches\8.10.2\transforms\d250f0d33a17527aae5c38a72a76e5c0\transformed\viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\shara\.gradle\caches\8.10.2\transforms\d250f0d33a17527aae5c38a72a76e5c0\transformed\viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\shara\.gradle\caches\8.10.2\transforms\47bfbb3fd7f869eb678137d2f5c648f2\transformed\play-services-base-18.5.0\AndroidManifest.xml:3:5-44
+MERGED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\shara\.gradle\caches\8.10.2\transforms\47bfbb3fd7f869eb678137d2f5c648f2\transformed\play-services-base-18.5.0\AndroidManifest.xml:3:5-44
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] C:\Users\shara\.gradle\caches\8.10.2\transforms\78c8ca2a60c17ed476c4be8a1b8b6010\transformed\play-services-tasks-18.2.0\AndroidManifest.xml:3:5-44
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] C:\Users\shara\.gradle\caches\8.10.2\transforms\78c8ca2a60c17ed476c4be8a1b8b6010\transformed\play-services-tasks-18.2.0\AndroidManifest.xml:3:5-44
+MERGED from [com.google.android.gms:play-services-basement:18.4.0] C:\Users\shara\.gradle\caches\8.10.2\transforms\c647b5a2c0077f4eac8c10b8f0f0a842\transformed\play-services-basement-18.4.0\AndroidManifest.xml:3:5-44
+MERGED from [com.google.android.gms:play-services-basement:18.4.0] C:\Users\shara\.gradle\caches\8.10.2\transforms\c647b5a2c0077f4eac8c10b8f0f0a842\transformed\play-services-basement-18.4.0\AndroidManifest.xml:3:5-44
+MERGED from [androidx.fragment:fragment:1.5.4] C:\Users\shara\.gradle\caches\8.10.2\transforms\e9b38445f81de178314286f2c4d08669\transformed\fragment-1.5.4\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.5.4] C:\Users\shara\.gradle\caches\8.10.2\transforms\e9b38445f81de178314286f2c4d08669\transformed\fragment-1.5.4\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.10.0] C:\Users\shara\.gradle\caches\8.10.2\transforms\2283569024d9916d9291d5eb49caa2f8\transformed\activity-1.10.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.10.0] C:\Users\shara\.gradle\caches\8.10.2\transforms\2283569024d9916d9291d5eb49caa2f8\transformed\activity-1.10.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\shara\.gradle\caches\8.10.2\transforms\eecdad80ec8540b8cead2545a4b0eadc\transformed\savedstate-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\shara\.gradle\caches\8.10.2\transforms\eecdad80ec8540b8cead2545a4b0eadc\transformed\savedstate-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] C:\Users\shara\.gradle\caches\8.10.2\transforms\39e385c3d379638f4f8e9e376da78d43\transformed\emoji2-views-helper-1.3.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] C:\Users\shara\.gradle\caches\8.10.2\transforms\39e385c3d379638f4f8e9e376da78d43\transformed\emoji2-views-helper-1.3.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\shara\.gradle\caches\8.10.2\transforms\0a22aa998f649de663bb8a58ff0e00d3\transformed\emoji2-1.3.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\shara\.gradle\caches\8.10.2\transforms\0a22aa998f649de663bb8a58ff0e00d3\transformed\emoji2-1.3.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.transition:transition:1.5.0] C:\Users\shara\.gradle\caches\8.10.2\transforms\e5ec25dcfb4752449cb6ed128e5fa3fb\transformed\transition-1.5.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.transition:transition:1.5.0] C:\Users\shara\.gradle\caches\8.10.2\transforms\e5ec25dcfb4752449cb6ed128e5fa3fb\transformed\transition-1.5.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\shara\.gradle\caches\8.10.2\transforms\892e0350dda653560a0cac37ccec56f4\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\shara\.gradle\caches\8.10.2\transforms\892e0350dda653560a0cac37ccec56f4\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\shara\.gradle\caches\8.10.2\transforms\a18da5144d6abcb34a12f057ecb9a804\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\shara\.gradle\caches\8.10.2\transforms\a18da5144d6abcb34a12f057ecb9a804\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\shara\.gradle\caches\8.10.2\transforms\3a43aba599c7ca83c37f86726c12e316\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\shara\.gradle\caches\8.10.2\transforms\3a43aba599c7ca83c37f86726c12e316\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] C:\Users\shara\.gradle\caches\8.10.2\transforms\eadda50de07def64996b188300a3a8a9\transformed\lifecycle-livedata-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] C:\Users\shara\.gradle\caches\8.10.2\transforms\eadda50de07def64996b188300a3a8a9\transformed\lifecycle-livedata-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] C:\Users\shara\.gradle\caches\8.10.2\transforms\1857cafea6c7712f253d9d00f8fc12b5\transformed\lifecycle-viewmodel-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] C:\Users\shara\.gradle\caches\8.10.2\transforms\1857cafea6c7712f253d9d00f8fc12b5\transformed\lifecycle-viewmodel-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\shara\.gradle\caches\8.10.2\transforms\4ea44d241cc678fe07f5b44ae6fd1521\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\shara\.gradle\caches\8.10.2\transforms\4ea44d241cc678fe07f5b44ae6fd1521\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] C:\Users\shara\.gradle\caches\8.10.2\transforms\a6e65bc116c397a09ee10a422aead771\transformed\lifecycle-livedata-core-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] C:\Users\shara\.gradle\caches\8.10.2\transforms\a6e65bc116c397a09ee10a422aead771\transformed\lifecycle-livedata-core-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] C:\Users\shara\.gradle\caches\8.10.2\transforms\fdf5b127a988b7282f9f3da3d7e4818c\transformed\lifecycle-runtime-2.6.2\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] C:\Users\shara\.gradle\caches\8.10.2\transforms\fdf5b127a988b7282f9f3da3d7e4818c\transformed\lifecycle-runtime-2.6.2\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] C:\Users\shara\.gradle\caches\8.10.2\transforms\d03ee68bf8254655a32395c4715b71bf\transformed\lifecycle-viewmodel-savedstate-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] C:\Users\shara\.gradle\caches\8.10.2\transforms\d03ee68bf8254655a32395c4715b71bf\transformed\lifecycle-viewmodel-savedstate-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core-ktx:1.13.0] C:\Users\shara\.gradle\caches\8.10.2\transforms\9ed9a3e79aa2e77f5f260c4d8e350d3f\transformed\core-ktx-1.13.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.13.0] C:\Users\shara\.gradle\caches\8.10.2\transforms\9ed9a3e79aa2e77f5f260c4d8e350d3f\transformed\core-ktx-1.13.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\shara\.gradle\caches\8.10.2\transforms\c9e69c0299a1a0fad01e24b9bbdad030\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\shara\.gradle\caches\8.10.2\transforms\c9e69c0299a1a0fad01e24b9bbdad030\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\shara\.gradle\caches\8.10.2\transforms\c7eec9c78faa2f5eb05e345497be3f5c\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\shara\.gradle\caches\8.10.2\transforms\c7eec9c78faa2f5eb05e345497be3f5c\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\shara\.gradle\caches\8.10.2\transforms\cc9d77e9d71ef42370bf847d02ca07bc\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\shara\.gradle\caches\8.10.2\transforms\cc9d77e9d71ef42370bf847d02ca07bc\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\shara\.gradle\caches\8.10.2\transforms\e4c5b1e5e1888cde727598774f5899c3\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\shara\.gradle\caches\8.10.2\transforms\e4c5b1e5e1888cde727598774f5899c3\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\shara\.gradle\caches\8.10.2\transforms\573c7660ec0b495141595240c6833308\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\shara\.gradle\caches\8.10.2\transforms\573c7660ec0b495141595240c6833308\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\shara\.gradle\caches\8.10.2\transforms\262c40e35926cd06993401f58ccce879\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\shara\.gradle\caches\8.10.2\transforms\262c40e35926cd06993401f58ccce879\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\shara\.gradle\caches\8.10.2\transforms\f9a2b94ea21da763407a2dfd63dcc5ef\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\shara\.gradle\caches\8.10.2\transforms\f9a2b94ea21da763407a2dfd63dcc5ef\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.13.0] C:\Users\shara\.gradle\caches\8.10.2\transforms\ec51a2737c3035491a78f0680c8c0ea4\transformed\core-1.13.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.13.0] C:\Users\shara\.gradle\caches\8.10.2\transforms\ec51a2737c3035491a78f0680c8c0ea4\transformed\core-1.13.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\shara\.gradle\caches\8.10.2\transforms\8b4b35b7e0d33a2bcd6b58a714a138e1\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\shara\.gradle\caches\8.10.2\transforms\8b4b35b7e0d33a2bcd6b58a714a138e1\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\shara\.gradle\caches\8.10.2\transforms\4140b9c1640d677cfba4459ce8b89162\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\shara\.gradle\caches\8.10.2\transforms\4140b9c1640d677cfba4459ce8b89162\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\shara\.gradle\caches\8.10.2\transforms\c7e9614b33e3a2b5983362fa72c029c5\transformed\profileinstaller-1.4.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\shara\.gradle\caches\8.10.2\transforms\c7e9614b33e3a2b5983362fa72c029c5\transformed\profileinstaller-1.4.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\shara\.gradle\caches\8.10.2\transforms\b9babb41911363225370555d36d83b29\transformed\startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\shara\.gradle\caches\8.10.2\transforms\b9babb41911363225370555d36d83b29\transformed\startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\shara\.gradle\caches\8.10.2\transforms\647124ac39b7749b49c013dd0a6609d9\transformed\tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\shara\.gradle\caches\8.10.2\transforms\647124ac39b7749b49c013dd0a6609d9\transformed\tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\shara\.gradle\caches\8.10.2\transforms\efac7dffd9dbd76cd2736b001a218fc7\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\shara\.gradle\caches\8.10.2\transforms\efac7dffd9dbd76cd2736b001a218fc7\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\shara\.gradle\caches\8.10.2\transforms\26cefe69719bbfffb402a92c26ffe955\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\shara\.gradle\caches\8.10.2\transforms\26cefe69719bbfffb402a92c26ffe955\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\shara\.gradle\caches\8.10.2\transforms\1881a07db83eb5b54cc4b3dba54a6d61\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\shara\.gradle\caches\8.10.2\transforms\1881a07db83eb5b54cc4b3dba54a6d61\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\shara\.gradle\caches\8.10.2\transforms\211c73eb61d48357abec790ad7e5cc99\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\shara\.gradle\caches\8.10.2\transforms\211c73eb61d48357abec790ad7e5cc99\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\shara\.gradle\caches\8.10.2\transforms\1fa35fc50bf4bf7035c586b5b7f20060\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\shara\.gradle\caches\8.10.2\transforms\1fa35fc50bf4bf7035c586b5b7f20060\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\shara\.gradle\caches\8.10.2\transforms\3aa22e96dcdaca1f6c2b35e367929dc9\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\shara\.gradle\caches\8.10.2\transforms\3aa22e96dcdaca1f6c2b35e367929dc9\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] C:\Users\shara\.gradle\caches\8.10.2\transforms\6c9592205cb807f5377782d6b68cde7e\transformed\annotation-experimental-1.4.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] C:\Users\shara\.gradle\caches\8.10.2\transforms\6c9592205cb807f5377782d6b68cde7e\transformed\annotation-experimental-1.4.0\AndroidManifest.xml:5:5-44
+	android:targetSdkVersion
+		INJECTED from C:\Users\shara\Documents\Neighbourhood-Barter-system-v1\Neighbourhood-Barter-system-master\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\shara\Documents\Neighbourhood-Barter-system-v1\Neighbourhood-Barter-system-master\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.android.gms:play-services-maps:19.1.0] C:\Users\shara\.gradle\caches\8.10.2\transforms\29edc8bca9eb7ac3803449e92c70aed0\transformed\play-services-maps-19.1.0\AndroidManifest.xml:20:5-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:19.1.0] C:\Users\shara\.gradle\caches\8.10.2\transforms\29edc8bca9eb7ac3803449e92c70aed0\transformed\play-services-maps-19.1.0\AndroidManifest.xml:20:22-76
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:19.1.0] C:\Users\shara\.gradle\caches\8.10.2\transforms\29edc8bca9eb7ac3803449e92c70aed0\transformed\play-services-maps-19.1.0\AndroidManifest.xml:22:5-24:33
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:19.1.0] C:\Users\shara\.gradle\caches\8.10.2\transforms\29edc8bca9eb7ac3803449e92c70aed0\transformed\play-services-maps-19.1.0\AndroidManifest.xml:23:8-40
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:19.1.0] C:\Users\shara\.gradle\caches\8.10.2\transforms\29edc8bca9eb7ac3803449e92c70aed0\transformed\play-services-maps-19.1.0\AndroidManifest.xml:24:8-31
+queries
+ADDED from [com.google.android.gms:play-services-maps:19.1.0] C:\Users\shara\.gradle\caches\8.10.2\transforms\29edc8bca9eb7ac3803449e92c70aed0\transformed\play-services-maps-19.1.0\AndroidManifest.xml:27:5-30:15
+package#com.google.android.apps.maps
+ADDED from [com.google.android.gms:play-services-maps:19.1.0] C:\Users\shara\.gradle\caches\8.10.2\transforms\29edc8bca9eb7ac3803449e92c70aed0\transformed\play-services-maps-19.1.0\AndroidManifest.xml:29:7-61
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:19.1.0] C:\Users\shara\.gradle\caches\8.10.2\transforms\29edc8bca9eb7ac3803449e92c70aed0\transformed\play-services-maps-19.1.0\AndroidManifest.xml:29:16-59
+uses-library#org.apache.http.legacy
+ADDED from [com.google.android.gms:play-services-maps:19.1.0] C:\Users\shara\.gradle\caches\8.10.2\transforms\29edc8bca9eb7ac3803449e92c70aed0\transformed\play-services-maps-19.1.0\AndroidManifest.xml:33:7-86
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:19.1.0] C:\Users\shara\.gradle\caches\8.10.2\transforms\29edc8bca9eb7ac3803449e92c70aed0\transformed\play-services-maps-19.1.0\AndroidManifest.xml:33:59-83
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:19.1.0] C:\Users\shara\.gradle\caches\8.10.2\transforms\29edc8bca9eb7ac3803449e92c70aed0\transformed\play-services-maps-19.1.0\AndroidManifest.xml:33:21-58
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\shara\.gradle\caches\8.10.2\transforms\47bfbb3fd7f869eb678137d2f5c648f2\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:9-173
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\shara\.gradle\caches\8.10.2\transforms\47bfbb3fd7f869eb678137d2f5c648f2\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:146-170
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\shara\.gradle\caches\8.10.2\transforms\47bfbb3fd7f869eb678137d2f5c648f2\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:86-145
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\shara\.gradle\caches\8.10.2\transforms\47bfbb3fd7f869eb678137d2f5c648f2\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:19-85
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:18.4.0] C:\Users\shara\.gradle\caches\8.10.2\transforms\c647b5a2c0077f4eac8c10b8f0f0a842\transformed\play-services-basement-18.4.0\AndroidManifest.xml:6:9-122
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:18.4.0] C:\Users\shara\.gradle\caches\8.10.2\transforms\c647b5a2c0077f4eac8c10b8f0f0a842\transformed\play-services-basement-18.4.0\AndroidManifest.xml:6:66-119
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:18.4.0] C:\Users\shara\.gradle\caches\8.10.2\transforms\c647b5a2c0077f4eac8c10b8f0f0a842\transformed\play-services-basement-18.4.0\AndroidManifest.xml:6:20-65
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\shara\.gradle\caches\8.10.2\transforms\0a22aa998f649de663bb8a58ff0e00d3\transformed\emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\shara\.gradle\caches\8.10.2\transforms\4ea44d241cc678fe07f5b44ae6fd1521\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\shara\.gradle\caches\8.10.2\transforms\4ea44d241cc678fe07f5b44ae6fd1521\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\shara\.gradle\caches\8.10.2\transforms\c7e9614b33e3a2b5983362fa72c029c5\transformed\profileinstaller-1.4.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\shara\.gradle\caches\8.10.2\transforms\c7e9614b33e3a2b5983362fa72c029c5\transformed\profileinstaller-1.4.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\shara\.gradle\caches\8.10.2\transforms\b9babb41911363225370555d36d83b29\transformed\startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\shara\.gradle\caches\8.10.2\transforms\b9babb41911363225370555d36d83b29\transformed\startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\shara\.gradle\caches\8.10.2\transforms\0a22aa998f649de663bb8a58ff0e00d3\transformed\emoji2-1.3.0\AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\shara\.gradle\caches\8.10.2\transforms\0a22aa998f649de663bb8a58ff0e00d3\transformed\emoji2-1.3.0\AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\shara\.gradle\caches\8.10.2\transforms\0a22aa998f649de663bb8a58ff0e00d3\transformed\emoji2-1.3.0\AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\shara\.gradle\caches\8.10.2\transforms\0a22aa998f649de663bb8a58ff0e00d3\transformed\emoji2-1.3.0\AndroidManifest.xml:25:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\shara\.gradle\caches\8.10.2\transforms\0a22aa998f649de663bb8a58ff0e00d3\transformed\emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\shara\.gradle\caches\8.10.2\transforms\0a22aa998f649de663bb8a58ff0e00d3\transformed\emoji2-1.3.0\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\shara\.gradle\caches\8.10.2\transforms\0a22aa998f649de663bb8a58ff0e00d3\transformed\emoji2-1.3.0\AndroidManifest.xml:30:17-75
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\shara\.gradle\caches\8.10.2\transforms\4ea44d241cc678fe07f5b44ae6fd1521\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\shara\.gradle\caches\8.10.2\transforms\4ea44d241cc678fe07f5b44ae6fd1521\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\shara\.gradle\caches\8.10.2\transforms\4ea44d241cc678fe07f5b44ae6fd1521\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:30:17-78
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.0] C:\Users\shara\.gradle\caches\8.10.2\transforms\ec51a2737c3035491a78f0680c8c0ea4\transformed\core-1.13.0\AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.13.0] C:\Users\shara\.gradle\caches\8.10.2\transforms\ec51a2737c3035491a78f0680c8c0ea4\transformed\core-1.13.0\AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.13.0] C:\Users\shara\.gradle\caches\8.10.2\transforms\ec51a2737c3035491a78f0680c8c0ea4\transformed\core-1.13.0\AndroidManifest.xml:23:9-81
+permission#com.example.neighbourhoodbartersystem.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.0] C:\Users\shara\.gradle\caches\8.10.2\transforms\ec51a2737c3035491a78f0680c8c0ea4\transformed\core-1.13.0\AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.13.0] C:\Users\shara\.gradle\caches\8.10.2\transforms\ec51a2737c3035491a78f0680c8c0ea4\transformed\core-1.13.0\AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.13.0] C:\Users\shara\.gradle\caches\8.10.2\transforms\ec51a2737c3035491a78f0680c8c0ea4\transformed\core-1.13.0\AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.0] C:\Users\shara\.gradle\caches\8.10.2\transforms\ec51a2737c3035491a78f0680c8c0ea4\transformed\core-1.13.0\AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.13.0] C:\Users\shara\.gradle\caches\8.10.2\transforms\ec51a2737c3035491a78f0680c8c0ea4\transformed\core-1.13.0\AndroidManifest.xml:26:22-94
+uses-permission#com.example.neighbourhoodbartersystem.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.0] C:\Users\shara\.gradle\caches\8.10.2\transforms\ec51a2737c3035491a78f0680c8c0ea4\transformed\core-1.13.0\AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.13.0] C:\Users\shara\.gradle\caches\8.10.2\transforms\ec51a2737c3035491a78f0680c8c0ea4\transformed\core-1.13.0\AndroidManifest.xml:26:22-94
+meta-data#androidx.profileinstaller.ProfileInstallerInitializer
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\shara\.gradle\caches\8.10.2\transforms\c7e9614b33e3a2b5983362fa72c029c5\transformed\profileinstaller-1.4.0\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\shara\.gradle\caches\8.10.2\transforms\c7e9614b33e3a2b5983362fa72c029c5\transformed\profileinstaller-1.4.0\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\shara\.gradle\caches\8.10.2\transforms\c7e9614b33e3a2b5983362fa72c029c5\transformed\profileinstaller-1.4.0\AndroidManifest.xml:30:17-85
+receiver#androidx.profileinstaller.ProfileInstallReceiver
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\shara\.gradle\caches\8.10.2\transforms\c7e9614b33e3a2b5983362fa72c029c5\transformed\profileinstaller-1.4.0\AndroidManifest.xml:34:9-52:20
+	android:enabled
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\shara\.gradle\caches\8.10.2\transforms\c7e9614b33e3a2b5983362fa72c029c5\transformed\profileinstaller-1.4.0\AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\shara\.gradle\caches\8.10.2\transforms\c7e9614b33e3a2b5983362fa72c029c5\transformed\profileinstaller-1.4.0\AndroidManifest.xml:38:13-36
+	android:permission
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\shara\.gradle\caches\8.10.2\transforms\c7e9614b33e3a2b5983362fa72c029c5\transformed\profileinstaller-1.4.0\AndroidManifest.xml:39:13-57
+	android:directBootAware
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\shara\.gradle\caches\8.10.2\transforms\c7e9614b33e3a2b5983362fa72c029c5\transformed\profileinstaller-1.4.0\AndroidManifest.xml:36:13-44
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\shara\.gradle\caches\8.10.2\transforms\c7e9614b33e3a2b5983362fa72c029c5\transformed\profileinstaller-1.4.0\AndroidManifest.xml:35:13-76
+intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\shara\.gradle\caches\8.10.2\transforms\c7e9614b33e3a2b5983362fa72c029c5\transformed\profileinstaller-1.4.0\AndroidManifest.xml:40:13-42:29
+action#androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\shara\.gradle\caches\8.10.2\transforms\c7e9614b33e3a2b5983362fa72c029c5\transformed\profileinstaller-1.4.0\AndroidManifest.xml:41:17-91
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\shara\.gradle\caches\8.10.2\transforms\c7e9614b33e3a2b5983362fa72c029c5\transformed\profileinstaller-1.4.0\AndroidManifest.xml:41:25-88
+intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\shara\.gradle\caches\8.10.2\transforms\c7e9614b33e3a2b5983362fa72c029c5\transformed\profileinstaller-1.4.0\AndroidManifest.xml:43:13-45:29
+action#androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\shara\.gradle\caches\8.10.2\transforms\c7e9614b33e3a2b5983362fa72c029c5\transformed\profileinstaller-1.4.0\AndroidManifest.xml:44:17-85
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\shara\.gradle\caches\8.10.2\transforms\c7e9614b33e3a2b5983362fa72c029c5\transformed\profileinstaller-1.4.0\AndroidManifest.xml:44:25-82
+intent-filter#action:name:androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\shara\.gradle\caches\8.10.2\transforms\c7e9614b33e3a2b5983362fa72c029c5\transformed\profileinstaller-1.4.0\AndroidManifest.xml:46:13-48:29
+action#androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\shara\.gradle\caches\8.10.2\transforms\c7e9614b33e3a2b5983362fa72c029c5\transformed\profileinstaller-1.4.0\AndroidManifest.xml:47:17-88
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\shara\.gradle\caches\8.10.2\transforms\c7e9614b33e3a2b5983362fa72c029c5\transformed\profileinstaller-1.4.0\AndroidManifest.xml:47:25-85
+intent-filter#action:name:androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\shara\.gradle\caches\8.10.2\transforms\c7e9614b33e3a2b5983362fa72c029c5\transformed\profileinstaller-1.4.0\AndroidManifest.xml:49:13-51:29
+action#androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\shara\.gradle\caches\8.10.2\transforms\c7e9614b33e3a2b5983362fa72c029c5\transformed\profileinstaller-1.4.0\AndroidManifest.xml:50:17-95
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\shara\.gradle\caches\8.10.2\transforms\c7e9614b33e3a2b5983362fa72c029c5\transformed\profileinstaller-1.4.0\AndroidManifest.xml:50:25-92
