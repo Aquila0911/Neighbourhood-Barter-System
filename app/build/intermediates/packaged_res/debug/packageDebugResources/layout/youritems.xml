@@ -19,16 +19,16 @@
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="12dp"
         android:layout_marginEnd="16dp"
+        android:layout_marginBottom="11dp"
         android:text="New Item"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/toolbar" />
+        app:layout_constraintBottom_toTopOf="@+id/listView2"
+        app:layout_constraintEnd_toEndOf="parent" />
 
     <ListView
         android:id="@+id/listView2"
-        android:layout_width="414dp"
-        android:layout_height="606dp"
+        android:layout_width="408dp"
+        android:layout_height="508dp"
         android:layout_marginStart="1dp"
         android:layout_marginBottom="8dp"
         app:layout_constraintBottom_toTopOf="@+id/bottom_navigation"
@@ -43,22 +43,22 @@
         android:src="@drawable/filter"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/listView2"
-        app:layout_constraintHorizontal_bias="0.043"
+        app:layout_constraintHorizontal_bias="0.11"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.097"
+        app:layout_constraintVertical_bias="0.116"
         tools:ignore="DuplicateIds" />
 
     <TextView
         android:id="@+id/textView6"
         android:layout_width="104dp"
         android:layout_height="41dp"
+        android:layout_marginStart="57dp"
         android:layout_marginTop="16dp"
-        android:layout_marginEnd="40dp"
         android:text="Your Items"
         android:textSize="16sp"
         android:textStyle="bold"
-        app:layout_constraintEnd_toStartOf="@+id/button"
+        app:layout_constraintStart_toEndOf="@+id/yourfilter"
         app:layout_constraintTop_toBottomOf="@+id/toolbar" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

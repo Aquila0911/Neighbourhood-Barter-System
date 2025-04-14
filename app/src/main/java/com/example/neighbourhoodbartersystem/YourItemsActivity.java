@@ -33,6 +33,8 @@ import java.util.List;
 
 public class YourItemsActivity extends AppCompatActivity {
     private static final int REQUEST_IMAGE_CAPTURE = 1;
+    private static final int REQUEST_IMAGE_GALLERY = 2;
+
     private ImageView capturedImageView; // Declare globally
     private PopupWindow popupWindow;
     protected void onCreate(Bundle savedInstanceState) {
@@ -40,6 +42,9 @@ public class YourItemsActivity extends AppCompatActivity {
         setContentView(R.layout.youritems); // Set the layout resource
         Button showPopupButton = findViewById(R.id.button);
         showPopupButton.setOnClickListener(v -> showPopupWindow(v));
+        if (showPopupButton == null) {
+            Toast.makeText(this, "Button not found!", Toast.LENGTH_SHORT).show();
+        }
         ImageView filterIcon = findViewById(R.id.yourfilter);
 
 
@@ -95,10 +100,13 @@ public class YourItemsActivity extends AppCompatActivity {
 
         capturedImageView = popupView.findViewById(R.id.captured_image); // Store reference
         Button cameraButton = popupView.findViewById(R.id.camera_button);
+        Button galleryButton = popupView.findViewById(R.id.gallery);
+
         Button closeButton = popupView.findViewById(R.id.close_button);
 
         cameraButton.setOnClickListener(v -> checkPermissionsAndOpenCamera());
         closeButton.setOnClickListener(v -> popupWindow.dismiss());
+        galleryButton.setOnClickListener(v -> openGallery());
 
 
 
@@ -122,6 +130,16 @@ public class YourItemsActivity extends AppCompatActivity {
                 if (capturedImageView != null && popupWindow != null && popupWindow.isShowing()) {
                     capturedImageView.setImageBitmap(capturedBitmap);
                 }
+            }
+        }else if (requestCode == REQUEST_IMAGE_GALLERY && data != null) {
+            try {
+                Bitmap selectedImage = MediaStore.Images.Media.getBitmap(this.getContentResolver(), data.getData());
+                if (capturedImageView != null && popupWindow != null && popupWindow.isShowing()) {
+                    capturedImageView.setImageBitmap(selectedImage);
+                }
+            } catch (Exception e) {
+                e.printStackTrace();
+                Toast.makeText(this, "Failed to load image", Toast.LENGTH_SHORT).show();
             }
         }
     }
@@ -159,6 +177,11 @@ public class YourItemsActivity extends AppCompatActivity {
             Toast.makeText(this, "Filter Applied: " + selectedCategory + ", Max Price: " + price, Toast.LENGTH_SHORT).show();
             popupWindow.dismiss();
         });
+    }
+    private void openGallery() {
+        Intent intent = new Intent(Intent.ACTION_PICK, MediaStore.Images.Media.EXTERNAL_CONTENT_URI);
+        intent.setType("image/*");
+        startActivityForResult(intent, REQUEST_IMAGE_GALLERY);
     }
 
     private void openCamera() {
