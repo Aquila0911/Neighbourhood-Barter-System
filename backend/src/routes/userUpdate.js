@@ -3,23 +3,20 @@ const User = require("../models/User");
 
 const router = express.Router();
 
-// Update user location (called when user clicks "Update Location" button)
-router.put("/api/update-location/:userId", async (req, res) => {
+router.post("/api/update", async (req, res) => {
+  console.log("Update Request Received:", req.body);
+
   try {
-    const { latitude, longitude } = req.body;
-    const userId = req.params.userId;
+    const { _id, name, email, phoneNumber } = req.body;
 
-    if (!latitude || !longitude) {
-      return res.status(400).json({ message: "Latitude and longitude are required." });
-    }
+    const updatedUser = await User.findByIdAndUpdate(
+      _id,
+      { name, email, phoneNumber },
+      { new: true }
+    );
 
-    const user = await User.findByIdAndUpdate(userId, { location: { latitude, longitude } }, { new: true });
-
-    if (!user) {
-      return res.status(404).json({ message: "User not found." });
-    }
-
-    res.json({ message: "Location updated successfully", user });
+    console.log("Updated user:", updatedUser);
+    res.status(200).json(updatedUser);
   } catch (error) {
     res.status(500).json({ message: "Server error", error: error.message });
   }

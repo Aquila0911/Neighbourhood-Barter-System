@@ -6,7 +6,7 @@ const router = express.Router();
 
 // Register a new user
 router.post("/api/register", async (req, res) => {
-  console.log("Request Body:", req.body);
+  console.log("Register Request Received:", req.body);
 
   try {
     // const { name, email, password, phoneNumber } = req.body;

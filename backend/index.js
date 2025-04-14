@@ -6,6 +6,7 @@ const cors = require("cors");
 const connectDB = require("./src/config/db.js");
 const userRegisterRoute = require("./src/routes/userRegister");
 const loginRoute = require("./src/routes/login");
+const updateRoute = require("./src/routes/userUpdate");
 
 // Middleware
 app.use(express.json());
@@ -22,6 +23,7 @@ app.get("/api", (req, res) => {
 // Routes
 app.use(userRegisterRoute);
 app.use(loginRoute);
+app.use(updateRoute);
 
 // Start server
 const port = process.env.PORT || 5000;
