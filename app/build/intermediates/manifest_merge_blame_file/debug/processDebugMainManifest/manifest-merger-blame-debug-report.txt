@@ -1,0 +1,285 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.neighbourhoodbartersystem"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="35" />
+10
+11    <uses-feature
+11-->D:\MAD_main\Neighbourhood-Barter-System\app\src\main\AndroidManifest.xml:5:5-7:36
+12        android:name="android.hardware.camera"
+12-->D:\MAD_main\Neighbourhood-Barter-System\app\src\main\AndroidManifest.xml:6:9-47
+13        android:required="false" />
+13-->D:\MAD_main\Neighbourhood-Barter-System\app\src\main\AndroidManifest.xml:7:9-33
+14
+15    <uses-permission android:name="android.permission.CAMERA" />
+15-->D:\MAD_main\Neighbourhood-Barter-System\app\src\main\AndroidManifest.xml:9:5-64
+15-->D:\MAD_main\Neighbourhood-Barter-System\app\src\main\AndroidManifest.xml:9:22-62
+16    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+16-->D:\MAD_main\Neighbourhood-Barter-System\app\src\main\AndroidManifest.xml:10:5-77
+16-->D:\MAD_main\Neighbourhood-Barter-System\app\src\main\AndroidManifest.xml:10:22-74
+17    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+17-->D:\MAD_main\Neighbourhood-Barter-System\app\src\main\AndroidManifest.xml:11:5-79
+17-->D:\MAD_main\Neighbourhood-Barter-System\app\src\main\AndroidManifest.xml:11:22-77
+18    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+18-->D:\MAD_main\Neighbourhood-Barter-System\app\src\main\AndroidManifest.xml:12:5-80
+18-->D:\MAD_main\Neighbourhood-Barter-System\app\src\main\AndroidManifest.xml:12:22-78
+19    <uses-permission android:name="android.permission.INTERNET" />
+19-->D:\MAD_main\Neighbourhood-Barter-System\app\src\main\AndroidManifest.xml:13:5-67
+19-->D:\MAD_main\Neighbourhood-Barter-System\app\src\main\AndroidManifest.xml:13:22-64
+20    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+20-->D:\MAD_main\Neighbourhood-Barter-System\app\src\main\AndroidManifest.xml:14:5-79
+20-->D:\MAD_main\Neighbourhood-Barter-System\app\src\main\AndroidManifest.xml:14:22-76
+21    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+21-->D:\MAD_main\Neighbourhood-Barter-System\app\src\main\AndroidManifest.xml:15:5-81
+21-->D:\MAD_main\Neighbourhood-Barter-System\app\src\main\AndroidManifest.xml:15:22-78
+22
+23    <supports-screens
+23-->[org.osmdroid:osmdroid-android:6.1.14] C:\Users\SHRAVANI BHOR\.gradle\caches\8.10.2\transforms\618f33494c24a9a57aa680ecd3584043\transformed\osmdroid-android-6.1.14\AndroidManifest.xml:9:5-12:40
+24        android:anyDensity="true"
+24-->[org.osmdroid:osmdroid-android:6.1.14] C:\Users\SHRAVANI BHOR\.gradle\caches\8.10.2\transforms\618f33494c24a9a57aa680ecd3584043\transformed\osmdroid-android-6.1.14\AndroidManifest.xml:10:9-34
+25        android:largeScreens="true"
+25-->[org.osmdroid:osmdroid-android:6.1.14] C:\Users\SHRAVANI BHOR\.gradle\caches\8.10.2\transforms\618f33494c24a9a57aa680ecd3584043\transformed\osmdroid-android-6.1.14\AndroidManifest.xml:11:9-36
+26        android:normalScreens="true" />
+26-->[org.osmdroid:osmdroid-android:6.1.14] C:\Users\SHRAVANI BHOR\.gradle\caches\8.10.2\transforms\618f33494c24a9a57aa680ecd3584043\transformed\osmdroid-android-6.1.14\AndroidManifest.xml:12:9-37
+27
+28    <uses-feature
+28-->[org.osmdroid:osmdroid-android:6.1.14] C:\Users\SHRAVANI BHOR\.gradle\caches\8.10.2\transforms\618f33494c24a9a57aa680ecd3584043\transformed\osmdroid-android-6.1.14\AndroidManifest.xml:14:5-16:36
+29        android:name="android.hardware.location.network"
+29-->[org.osmdroid:osmdroid-android:6.1.14] C:\Users\SHRAVANI BHOR\.gradle\caches\8.10.2\transforms\618f33494c24a9a57aa680ecd3584043\transformed\osmdroid-android-6.1.14\AndroidManifest.xml:15:9-57
+30        android:required="false" />
+30-->[org.osmdroid:osmdroid-android:6.1.14] C:\Users\SHRAVANI BHOR\.gradle\caches\8.10.2\transforms\618f33494c24a9a57aa680ecd3584043\transformed\osmdroid-android-6.1.14\AndroidManifest.xml:16:9-33
+31    <uses-feature
+31-->[org.osmdroid:osmdroid-android:6.1.14] C:\Users\SHRAVANI BHOR\.gradle\caches\8.10.2\transforms\618f33494c24a9a57aa680ecd3584043\transformed\osmdroid-android-6.1.14\AndroidManifest.xml:17:5-19:36
+32        android:name="android.hardware.location.gps"
+32-->[org.osmdroid:osmdroid-android:6.1.14] C:\Users\SHRAVANI BHOR\.gradle\caches\8.10.2\transforms\618f33494c24a9a57aa680ecd3584043\transformed\osmdroid-android-6.1.14\AndroidManifest.xml:18:9-53
+33        android:required="false" />
+33-->[org.osmdroid:osmdroid-android:6.1.14] C:\Users\SHRAVANI BHOR\.gradle\caches\8.10.2\transforms\618f33494c24a9a57aa680ecd3584043\transformed\osmdroid-android-6.1.14\AndroidManifest.xml:19:9-33
+34    <uses-feature
+34-->[org.osmdroid:osmdroid-android:6.1.14] C:\Users\SHRAVANI BHOR\.gradle\caches\8.10.2\transforms\618f33494c24a9a57aa680ecd3584043\transformed\osmdroid-android-6.1.14\AndroidManifest.xml:20:5-22:36
+35        android:name="android.hardware.telephony"
+35-->[org.osmdroid:osmdroid-android:6.1.14] C:\Users\SHRAVANI BHOR\.gradle\caches\8.10.2\transforms\618f33494c24a9a57aa680ecd3584043\transformed\osmdroid-android-6.1.14\AndroidManifest.xml:21:9-50
+36        android:required="false" />
+36-->[org.osmdroid:osmdroid-android:6.1.14] C:\Users\SHRAVANI BHOR\.gradle\caches\8.10.2\transforms\618f33494c24a9a57aa680ecd3584043\transformed\osmdroid-android-6.1.14\AndroidManifest.xml:22:9-33
+37    <uses-feature
+37-->[org.osmdroid:osmdroid-android:6.1.14] C:\Users\SHRAVANI BHOR\.gradle\caches\8.10.2\transforms\618f33494c24a9a57aa680ecd3584043\transformed\osmdroid-android-6.1.14\AndroidManifest.xml:23:5-25:36
+38        android:name="android.hardware.wifi"
+38-->[org.osmdroid:osmdroid-android:6.1.14] C:\Users\SHRAVANI BHOR\.gradle\caches\8.10.2\transforms\618f33494c24a9a57aa680ecd3584043\transformed\osmdroid-android-6.1.14\AndroidManifest.xml:24:9-45
+39        android:required="false" />
+39-->[org.osmdroid:osmdroid-android:6.1.14] C:\Users\SHRAVANI BHOR\.gradle\caches\8.10.2\transforms\618f33494c24a9a57aa680ecd3584043\transformed\osmdroid-android-6.1.14\AndroidManifest.xml:25:9-33
+40
+41    <permission
+41-->[androidx.core:core:1.13.0] C:\Users\SHRAVANI BHOR\.gradle\caches\8.10.2\transforms\7be633aac5f71b91553fc2f98b26112e\transformed\core-1.13.0\AndroidManifest.xml:22:5-24:47
+42        android:name="com.example.neighbourhoodbartersystem.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+42-->[androidx.core:core:1.13.0] C:\Users\SHRAVANI BHOR\.gradle\caches\8.10.2\transforms\7be633aac5f71b91553fc2f98b26112e\transformed\core-1.13.0\AndroidManifest.xml:23:9-81
+43        android:protectionLevel="signature" />
+43-->[androidx.core:core:1.13.0] C:\Users\SHRAVANI BHOR\.gradle\caches\8.10.2\transforms\7be633aac5f71b91553fc2f98b26112e\transformed\core-1.13.0\AndroidManifest.xml:24:9-44
+44
+45    <uses-permission android:name="com.example.neighbourhoodbartersystem.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+45-->[androidx.core:core:1.13.0] C:\Users\SHRAVANI BHOR\.gradle\caches\8.10.2\transforms\7be633aac5f71b91553fc2f98b26112e\transformed\core-1.13.0\AndroidManifest.xml:26:5-97
+45-->[androidx.core:core:1.13.0] C:\Users\SHRAVANI BHOR\.gradle\caches\8.10.2\transforms\7be633aac5f71b91553fc2f98b26112e\transformed\core-1.13.0\AndroidManifest.xml:26:22-94
+46
+47    <application
+47-->D:\MAD_main\Neighbourhood-Barter-System\app\src\main\AndroidManifest.xml:18:5-91:15
+48        android:allowBackup="true"
+48-->D:\MAD_main\Neighbourhood-Barter-System\app\src\main\AndroidManifest.xml:20:9-35
+49        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+49-->[androidx.core:core:1.13.0] C:\Users\SHRAVANI BHOR\.gradle\caches\8.10.2\transforms\7be633aac5f71b91553fc2f98b26112e\transformed\core-1.13.0\AndroidManifest.xml:28:18-86
+50        android:dataExtractionRules="@xml/data_extraction_rules"
+50-->D:\MAD_main\Neighbourhood-Barter-System\app\src\main\AndroidManifest.xml:21:9-65
+51        android:debuggable="true"
+52        android:extractNativeLibs="false"
+53        android:fullBackupContent="@xml/backup_rules"
+53-->D:\MAD_main\Neighbourhood-Barter-System\app\src\main\AndroidManifest.xml:22:9-54
+54        android:icon="@mipmap/ic_launcher"
+54-->D:\MAD_main\Neighbourhood-Barter-System\app\src\main\AndroidManifest.xml:23:9-43
+55        android:label="@string/app_name"
+55-->D:\MAD_main\Neighbourhood-Barter-System\app\src\main\AndroidManifest.xml:24:9-41
+56        android:networkSecurityConfig="@xml/network_security_config"
+56-->D:\MAD_main\Neighbourhood-Barter-System\app\src\main\AndroidManifest.xml:19:9-69
+57        android:roundIcon="@mipmap/ic_launcher_round"
+57-->D:\MAD_main\Neighbourhood-Barter-System\app\src\main\AndroidManifest.xml:25:9-54
+58        android:supportsRtl="true"
+58-->D:\MAD_main\Neighbourhood-Barter-System\app\src\main\AndroidManifest.xml:26:9-35
+59        android:testOnly="true"
+60        android:theme="@style/Theme.NeighbourhoodBarterSystem" >
+60-->D:\MAD_main\Neighbourhood-Barter-System\app\src\main\AndroidManifest.xml:27:9-63
+61        <activity
+61-->D:\MAD_main\Neighbourhood-Barter-System\app\src\main\AndroidManifest.xml:29:9-38:20
+62            android:name="com.example.neighbourhoodbartersystem.MainActivity"
+62-->D:\MAD_main\Neighbourhood-Barter-System\app\src\main\AndroidManifest.xml:30:13-41
+63            android:exported="true" >
+63-->D:\MAD_main\Neighbourhood-Barter-System\app\src\main\AndroidManifest.xml:31:13-36
+64            <intent-filter>
+64-->D:\MAD_main\Neighbourhood-Barter-System\app\src\main\AndroidManifest.xml:32:13-37:29
+65                <action android:name="android.intent.action.MAIN" />
+65-->D:\MAD_main\Neighbourhood-Barter-System\app\src\main\AndroidManifest.xml:33:17-69
+65-->D:\MAD_main\Neighbourhood-Barter-System\app\src\main\AndroidManifest.xml:33:25-66
+66
+67                <category android:name="android.intent.category.LAUNCHER" />
+67-->D:\MAD_main\Neighbourhood-Barter-System\app\src\main\AndroidManifest.xml:36:17-77
+67-->D:\MAD_main\Neighbourhood-Barter-System\app\src\main\AndroidManifest.xml:36:27-74
+68            </intent-filter>
+69        </activity>
+70        <activity
+70-->D:\MAD_main\Neighbourhood-Barter-System\app\src\main\AndroidManifest.xml:39:9-47:20
+71            android:name="com.example.neighbourhoodbartersystem.AddNewProduct"
+71-->D:\MAD_main\Neighbourhood-Barter-System\app\src\main\AndroidManifest.xml:39:19-48
+72            android:exported="true" >
+72-->D:\MAD_main\Neighbourhood-Barter-System\app\src\main\AndroidManifest.xml:40:13-36
+73            <intent-filter>
+73-->D:\MAD_main\Neighbourhood-Barter-System\app\src\main\AndroidManifest.xml:32:13-37:29
+74                <action android:name="android.intent.action.MAIN" />
+74-->D:\MAD_main\Neighbourhood-Barter-System\app\src\main\AndroidManifest.xml:33:17-69
+74-->D:\MAD_main\Neighbourhood-Barter-System\app\src\main\AndroidManifest.xml:33:25-66
+75
+76                <category android:name="android.intent.category.LAUNCHER" />
+76-->D:\MAD_main\Neighbourhood-Barter-System\app\src\main\AndroidManifest.xml:36:17-77
+76-->D:\MAD_main\Neighbourhood-Barter-System\app\src\main\AndroidManifest.xml:36:27-74
+77            </intent-filter>
+78        </activity>
+79        <activity android:name="com.example.neighbourhoodbartersystem.ExchangeActivity" />
+79-->D:\MAD_main\Neighbourhood-Barter-System\app\src\main\AndroidManifest.xml:48:9-54
+79-->D:\MAD_main\Neighbourhood-Barter-System\app\src\main\AndroidManifest.xml:48:19-51
+80        <activity android:name="com.example.neighbourhoodbartersystem.OngoingActivity" />
+80-->D:\MAD_main\Neighbourhood-Barter-System\app\src\main\AndroidManifest.xml:49:9-53
+80-->D:\MAD_main\Neighbourhood-Barter-System\app\src\main\AndroidManifest.xml:49:19-50
+81        <activity android:name="com.example.neighbourhoodbartersystem.YourItemsActivity" />
+81-->D:\MAD_main\Neighbourhood-Barter-System\app\src\main\AndroidManifest.xml:50:9-55
+81-->D:\MAD_main\Neighbourhood-Barter-System\app\src\main\AndroidManifest.xml:50:19-52
+82        <activity android:name="com.example.neighbourhoodbartersystem.LoginActivity" />
+82-->D:\MAD_main\Neighbourhood-Barter-System\app\src\main\AndroidManifest.xml:51:9-51
+82-->D:\MAD_main\Neighbourhood-Barter-System\app\src\main\AndroidManifest.xml:51:19-48
+83        <activity android:name="com.example.neighbourhoodbartersystem.RegActivity" />
+83-->D:\MAD_main\Neighbourhood-Barter-System\app\src\main\AndroidManifest.xml:52:9-49
+83-->D:\MAD_main\Neighbourhood-Barter-System\app\src\main\AndroidManifest.xml:52:19-46
+84        <activity
+84-->D:\MAD_main\Neighbourhood-Barter-System\app\src\main\AndroidManifest.xml:54:9-62:20
+85            android:name="com.example.neighbourhoodbartersystem.ProfileActivity"
+85-->D:\MAD_main\Neighbourhood-Barter-System\app\src\main\AndroidManifest.xml:54:19-87
+86            android:exported="true" >
+86-->D:\MAD_main\Neighbourhood-Barter-System\app\src\main\AndroidManifest.xml:55:13-36
+87            <intent-filter>
+87-->D:\MAD_main\Neighbourhood-Barter-System\app\src\main\AndroidManifest.xml:32:13-37:29
+88                <action android:name="android.intent.action.MAIN" />
+88-->D:\MAD_main\Neighbourhood-Barter-System\app\src\main\AndroidManifest.xml:33:17-69
+88-->D:\MAD_main\Neighbourhood-Barter-System\app\src\main\AndroidManifest.xml:33:25-66
+89
+90                <category android:name="android.intent.category.LAUNCHER" />
+90-->D:\MAD_main\Neighbourhood-Barter-System\app\src\main\AndroidManifest.xml:36:17-77
+90-->D:\MAD_main\Neighbourhood-Barter-System\app\src\main\AndroidManifest.xml:36:27-74
+91            </intent-filter>
+92        </activity>
+93        <activity
+93-->D:\MAD_main\Neighbourhood-Barter-System\app\src\main\AndroidManifest.xml:63:9-71:20
+94            android:name="com.example.neighbourhoodbartersystem.SettingsActivity"
+94-->D:\MAD_main\Neighbourhood-Barter-System\app\src\main\AndroidManifest.xml:63:19-88
+95            android:exported="true" >
+95-->D:\MAD_main\Neighbourhood-Barter-System\app\src\main\AndroidManifest.xml:64:13-36
+96            <intent-filter>
+96-->D:\MAD_main\Neighbourhood-Barter-System\app\src\main\AndroidManifest.xml:32:13-37:29
+97                <action android:name="android.intent.action.MAIN" />
+97-->D:\MAD_main\Neighbourhood-Barter-System\app\src\main\AndroidManifest.xml:33:17-69
+97-->D:\MAD_main\Neighbourhood-Barter-System\app\src\main\AndroidManifest.xml:33:25-66
+98
+99                <category android:name="android.intent.category.LAUNCHER" />
+99-->D:\MAD_main\Neighbourhood-Barter-System\app\src\main\AndroidManifest.xml:36:17-77
+99-->D:\MAD_main\Neighbourhood-Barter-System\app\src\main\AndroidManifest.xml:36:27-74
+100            </intent-filter>
+101        </activity>
+102
+103        <meta-data
+103-->D:\MAD_main\Neighbourhood-Barter-System\app\src\main\AndroidManifest.xml:76:9-78:57
+104            android:name="preloaded_fonts"
+104-->D:\MAD_main\Neighbourhood-Barter-System\app\src\main\AndroidManifest.xml:77:13-43
+105            android:resource="@array/preloaded_fonts" />
+105-->D:\MAD_main\Neighbourhood-Barter-System\app\src\main\AndroidManifest.xml:78:13-54
+106
+107        <provider
+107-->D:\MAD_main\Neighbourhood-Barter-System\app\src\main\AndroidManifest.xml:81:9-89:20
+108            android:name="androidx.core.content.FileProvider"
+108-->D:\MAD_main\Neighbourhood-Barter-System\app\src\main\AndroidManifest.xml:82:13-62
+109            android:authorities="com.example.neighbourhoodbartersystem.provider"
+109-->D:\MAD_main\Neighbourhood-Barter-System\app\src\main\AndroidManifest.xml:83:13-81
+110            android:exported="false"
+110-->D:\MAD_main\Neighbourhood-Barter-System\app\src\main\AndroidManifest.xml:85:13-37
+111            android:grantUriPermissions="true" >
+111-->D:\MAD_main\Neighbourhood-Barter-System\app\src\main\AndroidManifest.xml:84:13-47
+112            <meta-data
+112-->D:\MAD_main\Neighbourhood-Barter-System\app\src\main\AndroidManifest.xml:86:13-88:53
+113                android:name="android.support.FILE_PROVIDER_PATHS"
+113-->D:\MAD_main\Neighbourhood-Barter-System\app\src\main\AndroidManifest.xml:87:17-67
+114                android:resource="@xml/file_paths" />
+114-->D:\MAD_main\Neighbourhood-Barter-System\app\src\main\AndroidManifest.xml:88:17-51
+115        </provider>
+116        <provider
+116-->[androidx.emoji2:emoji2:1.3.0] C:\Users\SHRAVANI BHOR\.gradle\caches\8.10.2\transforms\b5200465a8bfb0a37cebdd4d5ca723db\transformed\emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+117            android:name="androidx.startup.InitializationProvider"
+117-->[androidx.emoji2:emoji2:1.3.0] C:\Users\SHRAVANI BHOR\.gradle\caches\8.10.2\transforms\b5200465a8bfb0a37cebdd4d5ca723db\transformed\emoji2-1.3.0\AndroidManifest.xml:25:13-67
+118            android:authorities="com.example.neighbourhoodbartersystem.androidx-startup"
+118-->[androidx.emoji2:emoji2:1.3.0] C:\Users\SHRAVANI BHOR\.gradle\caches\8.10.2\transforms\b5200465a8bfb0a37cebdd4d5ca723db\transformed\emoji2-1.3.0\AndroidManifest.xml:26:13-68
+119            android:exported="false" >
+119-->[androidx.emoji2:emoji2:1.3.0] C:\Users\SHRAVANI BHOR\.gradle\caches\8.10.2\transforms\b5200465a8bfb0a37cebdd4d5ca723db\transformed\emoji2-1.3.0\AndroidManifest.xml:27:13-37
+120            <meta-data
+120-->[androidx.emoji2:emoji2:1.3.0] C:\Users\SHRAVANI BHOR\.gradle\caches\8.10.2\transforms\b5200465a8bfb0a37cebdd4d5ca723db\transformed\emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+121                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+121-->[androidx.emoji2:emoji2:1.3.0] C:\Users\SHRAVANI BHOR\.gradle\caches\8.10.2\transforms\b5200465a8bfb0a37cebdd4d5ca723db\transformed\emoji2-1.3.0\AndroidManifest.xml:30:17-75
+122                android:value="androidx.startup" />
+122-->[androidx.emoji2:emoji2:1.3.0] C:\Users\SHRAVANI BHOR\.gradle\caches\8.10.2\transforms\b5200465a8bfb0a37cebdd4d5ca723db\transformed\emoji2-1.3.0\AndroidManifest.xml:31:17-49
+123            <meta-data
+123-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\SHRAVANI BHOR\.gradle\caches\8.10.2\transforms\f0c9d7c8df7b1553373972cf53ded503\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:29:13-31:52
+124                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+124-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\SHRAVANI BHOR\.gradle\caches\8.10.2\transforms\f0c9d7c8df7b1553373972cf53ded503\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:30:17-78
+125                android:value="androidx.startup" />
+125-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\SHRAVANI BHOR\.gradle\caches\8.10.2\transforms\f0c9d7c8df7b1553373972cf53ded503\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:31:17-49
+126            <meta-data
+126-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\SHRAVANI BHOR\.gradle\caches\8.10.2\transforms\25a9d842e7f3ba3a21f623fa105285f0\transformed\profileinstaller-1.4.0\AndroidManifest.xml:29:13-31:52
+127                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+127-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\SHRAVANI BHOR\.gradle\caches\8.10.2\transforms\25a9d842e7f3ba3a21f623fa105285f0\transformed\profileinstaller-1.4.0\AndroidManifest.xml:30:17-85
+128                android:value="androidx.startup" />
+128-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\SHRAVANI BHOR\.gradle\caches\8.10.2\transforms\25a9d842e7f3ba3a21f623fa105285f0\transformed\profileinstaller-1.4.0\AndroidManifest.xml:31:17-49
+129        </provider>
+130
+131        <receiver
+131-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\SHRAVANI BHOR\.gradle\caches\8.10.2\transforms\25a9d842e7f3ba3a21f623fa105285f0\transformed\profileinstaller-1.4.0\AndroidManifest.xml:34:9-52:20
+132            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+132-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\SHRAVANI BHOR\.gradle\caches\8.10.2\transforms\25a9d842e7f3ba3a21f623fa105285f0\transformed\profileinstaller-1.4.0\AndroidManifest.xml:35:13-76
+133            android:directBootAware="false"
+133-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\SHRAVANI BHOR\.gradle\caches\8.10.2\transforms\25a9d842e7f3ba3a21f623fa105285f0\transformed\profileinstaller-1.4.0\AndroidManifest.xml:36:13-44
+134            android:enabled="true"
+134-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\SHRAVANI BHOR\.gradle\caches\8.10.2\transforms\25a9d842e7f3ba3a21f623fa105285f0\transformed\profileinstaller-1.4.0\AndroidManifest.xml:37:13-35
+135            android:exported="true"
+135-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\SHRAVANI BHOR\.gradle\caches\8.10.2\transforms\25a9d842e7f3ba3a21f623fa105285f0\transformed\profileinstaller-1.4.0\AndroidManifest.xml:38:13-36
+136            android:permission="android.permission.DUMP" >
+136-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\SHRAVANI BHOR\.gradle\caches\8.10.2\transforms\25a9d842e7f3ba3a21f623fa105285f0\transformed\profileinstaller-1.4.0\AndroidManifest.xml:39:13-57
+137            <intent-filter>
+137-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\SHRAVANI BHOR\.gradle\caches\8.10.2\transforms\25a9d842e7f3ba3a21f623fa105285f0\transformed\profileinstaller-1.4.0\AndroidManifest.xml:40:13-42:29
+138                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+138-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\SHRAVANI BHOR\.gradle\caches\8.10.2\transforms\25a9d842e7f3ba3a21f623fa105285f0\transformed\profileinstaller-1.4.0\AndroidManifest.xml:41:17-91
+138-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\SHRAVANI BHOR\.gradle\caches\8.10.2\transforms\25a9d842e7f3ba3a21f623fa105285f0\transformed\profileinstaller-1.4.0\AndroidManifest.xml:41:25-88
+139            </intent-filter>
+140            <intent-filter>
+140-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\SHRAVANI BHOR\.gradle\caches\8.10.2\transforms\25a9d842e7f3ba3a21f623fa105285f0\transformed\profileinstaller-1.4.0\AndroidManifest.xml:43:13-45:29
+141                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+141-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\SHRAVANI BHOR\.gradle\caches\8.10.2\transforms\25a9d842e7f3ba3a21f623fa105285f0\transformed\profileinstaller-1.4.0\AndroidManifest.xml:44:17-85
+141-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\SHRAVANI BHOR\.gradle\caches\8.10.2\transforms\25a9d842e7f3ba3a21f623fa105285f0\transformed\profileinstaller-1.4.0\AndroidManifest.xml:44:25-82
+142            </intent-filter>
+143            <intent-filter>
+143-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\SHRAVANI BHOR\.gradle\caches\8.10.2\transforms\25a9d842e7f3ba3a21f623fa105285f0\transformed\profileinstaller-1.4.0\AndroidManifest.xml:46:13-48:29
+144                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+144-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\SHRAVANI BHOR\.gradle\caches\8.10.2\transforms\25a9d842e7f3ba3a21f623fa105285f0\transformed\profileinstaller-1.4.0\AndroidManifest.xml:47:17-88
+144-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\SHRAVANI BHOR\.gradle\caches\8.10.2\transforms\25a9d842e7f3ba3a21f623fa105285f0\transformed\profileinstaller-1.4.0\AndroidManifest.xml:47:25-85
+145            </intent-filter>
+146            <intent-filter>
+146-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\SHRAVANI BHOR\.gradle\caches\8.10.2\transforms\25a9d842e7f3ba3a21f623fa105285f0\transformed\profileinstaller-1.4.0\AndroidManifest.xml:49:13-51:29
+147                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+147-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\SHRAVANI BHOR\.gradle\caches\8.10.2\transforms\25a9d842e7f3ba3a21f623fa105285f0\transformed\profileinstaller-1.4.0\AndroidManifest.xml:50:17-95
+147-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\SHRAVANI BHOR\.gradle\caches\8.10.2\transforms\25a9d842e7f3ba3a21f623fa105285f0\transformed\profileinstaller-1.4.0\AndroidManifest.xml:50:25-92
+148            </intent-filter>
+149        </receiver>
+150    </application>
+151
+152</manifest>

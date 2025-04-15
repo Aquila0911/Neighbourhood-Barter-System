@@ -9,7 +9,8 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
-import androidx.appcompat.app.AppCompatActivity;
+
+import androidx.appcompat.app.AppCompatActivity; // ✅ Use ONLY this, not ComponentActivity
 
 import org.json.JSONObject;
 
@@ -28,7 +29,7 @@ public class LoginActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        // If already logged in, go to MainActivity
+        // Check if already logged in
         SharedPreferences prefs = getSharedPreferences("MyPrefs", MODE_PRIVATE);
         if (prefs.getBoolean("isLoggedIn", false)) {
             startActivity(new Intent(this, MainActivity.class));
@@ -36,27 +37,32 @@ public class LoginActivity extends AppCompatActivity {
             return;
         }
 
-        setContentView(R.layout.activity_login);
+        setContentView(R.layout.activity_login); // ✅ No ambiguity here
 
         username = findViewById(R.id.username);
         password = findViewById(R.id.password);
         loginBtn = findViewById(R.id.loginBtn);
         TextView tvSignUp = findViewById(R.id.tvSignUp);
-        tvSignUp.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(LoginActivity.this, RegActivity.class);
-                startActivity(intent);
-            }
+
+        // Sign-up redirect
+        tvSignUp.setOnClickListener(v -> {
+            Intent intent = new Intent(LoginActivity.this, RegActivity.class);
+            startActivity(intent);
         });
 
+        // Login logic
         loginBtn.setOnClickListener(v -> {
-            String user = username.getText().toString();
-            String pass = password.getText().toString();
+            String user = username.getText().toString().trim();
+            String pass = password.getText().toString().trim();
+
+            if (user.isEmpty() || pass.isEmpty()) {
+                Toast.makeText(LoginActivity.this, "Please enter both fields", Toast.LENGTH_SHORT).show();
+                return;
+            }
 
             new Thread(() -> {
                 try {
-                    URL url = new URL("http://10.153.0.130:5000/api/login");  // use your backend URL
+                    URL url = new URL("http://10.152.2.178:5000/api/login"); // replace with your actual backend IP
                     HttpURLConnection conn = (HttpURLConnection) url.openConnection();
                     conn.setRequestMethod("POST");
                     conn.setRequestProperty("Content-Type", "application/json");
@@ -83,7 +89,7 @@ public class LoginActivity extends AppCompatActivity {
 
                         JSONObject json = new JSONObject(response);
 
-                        // Save to SharedPreferences
+                        // Save login state and user info
                         SharedPreferences.Editor editor = prefs.edit();
                         editor.putBoolean("isLoggedIn", true);
                         editor.putString("userId", json.getString("_id"));
@@ -94,7 +100,6 @@ public class LoginActivity extends AppCompatActivity {
                         editor.putString("userRating", String.valueOf(json.optDouble("rating", 0.0)));
                         editor.putString("userTotalRatings", String.valueOf(json.optInt("totalRatings", 0)));
                         editor.apply();
-                        Log.d("USER_DATA", "Logged in user: ");
 
                         runOnUiThread(() -> {
                             Toast.makeText(LoginActivity.this, "Login successful", Toast.LENGTH_SHORT).show();
@@ -110,18 +115,6 @@ public class LoginActivity extends AppCompatActivity {
                     runOnUiThread(() -> Toast.makeText(LoginActivity.this, "Login error: " + e.getMessage(), Toast.LENGTH_LONG).show());
                 }
             }).start();
-
-//            if (user.equals("admin@example.com") && pass.equals("1234")) {
-//                // Save login state
-//                SharedPreferences.Editor editor = prefs.edit();
-//                editor.putBoolean("isLoggedIn", true);
-//                editor.apply();
-//
-//                startActivity(new Intent(this, MainActivity.class));
-//                finish();
-//            } else {
-//                Toast.makeText(this, "Invalid credentials", Toast.LENGTH_SHORT).show();
-//            }
         });
     }
 }
