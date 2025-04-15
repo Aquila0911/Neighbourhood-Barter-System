@@ -34,7 +34,6 @@ public class SettingsActivity extends AppCompatActivity {
     private MapView mapView;
     private TextView logout;
     private Spinner locationSpinner;
-    public static GeoPoint selectedLocation; // Accessible from ExchangeActivity
 
     public static List<LocationData> locations;
 
@@ -79,13 +78,12 @@ public class SettingsActivity extends AppCompatActivity {
             @Override
             public void onItemSelected(android.widget.AdapterView<?> parent, android.view.View view, int position, long id) {
                 LocationData selected = locations.get(position);
-                selectedLocation = locations.get(position).geoPoint;
                 updateMapWithNearbyMarkers(selected, locations);
             }
 
             @Override
             public void onNothingSelected(android.widget.AdapterView<?> parent) {
-                selectedLocation = locations.get(0).geoPoint;
+                // Do nothing
             }
         });
 
