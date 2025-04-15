@@ -25,6 +25,8 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
+import org.osmdroid.util.GeoPoint;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -53,11 +55,11 @@ public class ExchangeActivity extends AppCompatActivity {
         recyclerView.setLayoutManager(new GridLayoutManager(this, numberOfColumns));
 
         productList = new ArrayList<>();
-        productList.add(new Product("Laptop", "High-performance laptop", R.drawable.settings));
-        productList.add(new Product("Bicycle", "Mountain bike", R.drawable.settings));
-        productList.add(new Product("Phone", "Android phone", R.drawable.settings));
-        productList.add(new Product("Headphones", "Noise-canceling headphones", R.drawable.settings));
-        productList.add(new Product("Watch", "Smartwatch with tracking", R.drawable.settings));
+        productList.add(new Product("Laptop", "High-performance laptop", R.drawable.settings, "Electronics", new GeoPoint(13.3531, 74.7945)));
+        productList.add(new Product("T-Shirt", "Cotton T-shirt", R.drawable.settings, "Clothing", new GeoPoint(13.3524, 74.7938)));
+        productList.add(new Product("Book", "Sci-fi novel", R.drawable.settings, "Books", new GeoPoint(13.3537, 74.7898)));
+        productList.add(new Product("Smartphone", "Android phone", R.drawable.settings, "Electronics", new GeoPoint(13.3534, 74.7921)));
+        productList.add(new Product("Headphones", "Noise-canceling headphones", R.drawable.settings, "Electronics", new GeoPoint(13.3522, 74.7932)));
 
         adapter = new ProductAdapter(this, productList);
         recyclerView.setAdapter(adapter);
@@ -121,8 +123,8 @@ public class ExchangeActivity extends AppCompatActivity {
 
         // Set up Spinner with categories
         String[] categories = {"Select Category", "Electronics", "Clothing", "Books"};
-        ArrayAdapter<String> adapter = new ArrayAdapter<>(this, android.R.layout.simple_spinner_dropdown_item, categories);
-        categorySpinner.setAdapter(adapter);
+        ArrayAdapter<String> sadapter = new ArrayAdapter<>(this, android.R.layout.simple_spinner_dropdown_item, categories);
+        categorySpinner.setAdapter(sadapter);
 
         // Close button listener
         closeButton.setOnClickListener(v -> popupWindow.dismiss());
@@ -130,12 +132,27 @@ public class ExchangeActivity extends AppCompatActivity {
         // Apply button listener
         applyButton.setOnClickListener(v -> {
             String selectedCategory = categorySpinner.getSelectedItem().toString();
-            String price = priceInput.getText().toString();
-            Toast.makeText(this, "Filter Applied: " + selectedCategory + ", Max Price: " + price, Toast.LENGTH_SHORT).show();
+            if (!selectedCategory.equals("Select Category")) {
+                // Filter products based on selected category
+                List<Product> filteredList = filterProductsByCategory(productList, selectedCategory);
+                adapter.updateProductList(filteredList); // Update the adapter with the filtered list
+                Toast.makeText(this, "Filter Applied: " + selectedCategory, Toast.LENGTH_SHORT).show();
+            } else {
+                Toast.makeText(this, "Please select a valid category", Toast.LENGTH_SHORT).show();
+            }
             popupWindow.dismiss();
         });
     }
 
+    private List<Product> filterProductsByCategory(List<Product> productList, String category) {
+        List<Product> filteredList = new ArrayList<>();
+        for (Product product : productList) {
+            if (product.getCategory().equalsIgnoreCase(category)) {
+                filteredList.add(product);
+            }
+        }
+        return filteredList;
+    }
 
 
 }
